@@ -107,159 +107,135 @@ def main(args):
     if len(res) == 0:
         print("没有新的文章")
     else:
-        # 添加CSS样式和JavaScript
-        style_and_script = """
+        # 添加CSS样式
+        style = """
         <style>
             body { 
-                font-family: Arial, sans-serif; 
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
                 line-height: 1.6; 
                 background-color: #f8f9fa;
                 padding: 20px;
+                color: #333;
             }
             h1 { 
                 color: #333; 
                 text-align: center;
                 margin-bottom: 30px;
             }
-            .keyword-section {
-                margin-bottom: 30px;
+            /* Details 和 Summary 样式 */
+            details {
+                margin-bottom: 20px;
                 border-radius: 10px;
                 overflow: hidden;
                 box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                background-color: white;
             }
-            .keyword-header {
+            details[open] summary {
+                border-bottom: 2px solid rgba(255,255,255,0.3);
+            }
+            summary {
                 padding: 15px 20px;
                 cursor: pointer;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
+                list-style: none;
+                outline: none;
+                font-weight: bold;
+                font-size: 18px;
+                color: white;
                 transition: all 0.3s ease;
             }
-            .keyword-header:hover {
+            summary:hover {
                 opacity: 0.9;
             }
-            .keyword-title {
-                font-size: 20px;
-                font-weight: bold;
-                color: white;
+            summary::-webkit-details-marker {
+                display: none;
             }
-            .paper-count {
+            summary::before {
+                content: "▶ ";
+                display: inline-block;
+                margin-right: 10px;
+                transition: transform 0.3s ease;
+            }
+            details[open] summary::before {
+                transform: rotate(90deg);
+            }
+            .keyword-badge {
+                float: right;
                 background-color: rgba(255,255,255,0.3);
                 color: white;
                 padding: 5px 10px;
                 border-radius: 15px;
                 font-size: 14px;
-            }
-            .toggle-icon {
-                color: white;
-                font-size: 20px;
-                transition: transform 0.3s ease;
-            }
-            .toggle-icon.expanded {
-                transform: rotate(180deg);
+                font-weight: normal;
             }
             .keyword-content {
-                display: none;
                 padding: 20px;
             }
-            .keyword-content.show {
-                display: block;
+            /* 论文项样式 */
+            .paper-details {
+                margin-bottom: 15px;
+                border: 1px solid #e0e0e0;
+                border-radius: 8px;
+                overflow: hidden;
+                background-color: white;
             }
-            .paper-item { 
-                margin-bottom: 15px; 
+            .paper-summary {
+                padding: 12px 15px;
+                cursor: pointer;
+                list-style: none;
+                background-color: #f8f9fa;
+                font-weight: 600;
+                color: #333;
+                font-size: 15px;
+                line-height: 1.5;
+            }
+            .paper-summary:hover {
+                background-color: #f0f0f0;
+            }
+            .paper-summary::-webkit-details-marker {
+                display: none;
+            }
+            .paper-content {
                 padding: 15px;
                 background-color: white;
-                border-radius: 8px;
-                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            }
-            .paper-title { 
-                font-weight: bold; 
-                margin-bottom: 10px;
-                cursor: pointer;
-                display: flex;
-                justify-content: space-between;
-                align-items: start;
-            }
-            .paper-title-text {
-                flex: 1;
-                padding-right: 10px;
-            }
-            .abstract-toggle {
-                font-size: 12px;
-                padding: 3px 8px;
-                border-radius: 3px;
-                cursor: pointer;
-                white-space: nowrap;
             }
             .paper-abstract { 
-                margin-top: 10px;
+                margin: 10px 0;
                 color: #666;
                 text-align: justify;
-                padding: 10px;
+                padding: 15px;
                 background-color: #f8f9fa;
                 border-radius: 5px;
-                display: none;
                 font-size: 14px;
                 line-height: 1.8;
-            }
-            .paper-abstract.show {
-                display: block;
+                border-left: 3px solid #ddd;
             }
             .paper-link { 
                 margin-top: 10px;
+                text-align: right;
             }
             a { 
                 text-decoration: none; 
                 font-weight: 500;
+                padding: 5px 15px;
+                border-radius: 4px;
+                display: inline-block;
+                color: white;
             }
             a:hover { 
-                text-decoration: underline; 
+                opacity: 0.8;
+            }
+            .abstract-label {
+                font-weight: bold;
+                color: #555;
+                margin-bottom: 5px;
+                font-size: 13px;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
             }
         </style>
-        <script>
-            function toggleKeyword(keywordId) {
-                const content = document.getElementById('content-' + keywordId);
-                const icon = document.getElementById('icon-' + keywordId);
-                content.classList.toggle('show');
-                icon.classList.toggle('expanded');
-            }
-            
-            function toggleAbstract(paperId) {
-                const abstract = document.getElementById('abstract-' + paperId);
-                const button = document.getElementById('btn-' + paperId);
-                abstract.classList.toggle('show');
-                button.textContent = abstract.classList.contains('show') ? '折叠摘要' : '展开摘要';
-            }
-            
-            function expandAll() {
-                document.querySelectorAll('.keyword-content').forEach(content => {
-                    content.classList.add('show');
-                });
-                document.querySelectorAll('.toggle-icon').forEach(icon => {
-                    icon.classList.add('expanded');
-                });
-            }
-            
-            function collapseAll() {
-                document.querySelectorAll('.keyword-content').forEach(content => {
-                    content.classList.remove('show');
-                });
-                document.querySelectorAll('.toggle-icon').forEach(icon => {
-                    icon.classList.remove('expanded');
-                });
-            }
-        </script>
         """
         
         main_html = []
-        
-        # 添加全局控制按钮
-        control_buttons = """
-        <div style="text-align: center; margin-bottom: 20px;">
-            <button onclick="expandAll()" style="margin-right: 10px; padding: 8px 16px; border: none; background-color: #4CAF50; color: white; border-radius: 4px; cursor: pointer;">展开全部</button>
-            <button onclick="collapseAll()" style="padding: 8px 16px; border: none; background-color: #f44336; color: white; border-radius: 4px; cursor: pointer;">折叠全部</button>
-        </div>
-        """
         
         for idx, (k, v) in enumerate(res.items()):
             # 为每个关键词分配颜色
@@ -271,49 +247,40 @@ def main(args):
                 # if len(abstract) > 800:
                 #     abstract = abstract[:800] + "..."
                 
-                paper_id = f"{idx}_{paper_idx}"
                 paper_item = """
-                <div class="paper-item">
-                    <div class="paper-title">
-                        <div class="paper-title-text" style="color: {color_dark};">{paper}</div>
-                        <button id="btn-{paper_id}" class="abstract-toggle" onclick="toggleAbstract('{paper_id}')" 
-                                style="background-color: {color_primary}; color: white; border: none;">
-                            展开摘要
-                        </button>
+                <details class="paper-details">
+                    <summary class="paper-summary">{paper}</summary>
+                    <div class="paper-content">
+                        <div class="abstract-label">Abstract</div>
+                        <div class="paper-abstract">{abstract}</div>
+                        <div class="paper-link">
+                            <a href="{link}" target="_blank" style="background-color: {color_primary};">
+                                Read Full Paper →
+                            </a>
+                        </div>
                     </div>
-                    <div id="abstract-{paper_id}" class="paper-abstract">{abstract}</div>
-                    <div class="paper-link">
-                        <a href="{link}" target="_blank" style="color: {color_primary};">Read Paper →</a>
-                    </div>
-                </div>
+                </details>
                 """.format(
                     paper=paper, 
                     abstract=abstract, 
-                    link=link, 
-                    paper_id=paper_id,
-                    color_primary=color_scheme['primary'],
-                    color_dark=color_scheme['dark']
+                    link=link,
+                    color_primary=color_scheme['primary']
                 )
                 paper_html.append(paper_item)
             
-            paper_html = " ".join(paper_html)
+            paper_html = "\n".join(paper_html)
             
             keyword_section = """
-            <div class="keyword-section">
-                <div class="keyword-header" onclick="toggleKeyword({idx})" 
-                     style="background-color: {color_primary};">
-                    <div class="keyword-title">Keyword: {subject}</div>
-                    <div style="display: flex; align-items: center;">
-                        <span class="paper-count">{paper_count} papers</span>
-                        <span id="icon-{idx}" class="toggle-icon" style="margin-left: 10px;">▼</span>
-                    </div>
-                </div>
-                <div id="content-{idx}" class="keyword-content" style="background-color: {color_light};">
+            <details>
+                <summary style="background-color: {color_primary};">
+                    Keyword: {subject}
+                    <span class="keyword-badge">{paper_count} papers</span>
+                </summary>
+                <div class="keyword-content" style="background-color: {color_light};">
                     {paper_html}
                 </div>
-            </div>
+            </details>
             """.format(
-                idx=idx,
                 subject=k, 
                 paper_html=paper_html,
                 paper_count=len(v),
@@ -322,29 +289,30 @@ def main(args):
             )
             main_html.append(keyword_section)
         
-        main_html = " ".join(main_html)
+        main_html = "\n".join(main_html)
 
         today = datetime.date.today().__str__()
         content = """
         <html>
         <head>
             <meta charset="utf-8">
-            {style_and_script}
+            {style}
         </head>
         <body>
             <h1>🚀 ArXiv Daily - {today}</h1>
-            {control_buttons}
+            <div style="text-align: center; margin-bottom: 20px; color: #666; font-size: 14px;">
+                Click on keywords to expand papers, click on paper titles to view abstracts
+            </div>
             {main_html}
         </body>
         </html>
         """.format(
-            style_and_script=style_and_script, 
+            style=style, 
             today=today, 
-            control_buttons=control_buttons,
             main_html=main_html
         )
         
-        print(content)
+        print("生成邮件内容成功")
         sendEmail(args.email, args.receiver, args.token, args.title, content)
 
 if __name__ == '__main__':
