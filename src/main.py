@@ -33,7 +33,7 @@ rss_json = {
 }
 
 def get_arxiv_data():
-    """获取arxiv数据
+    """获取arxiv数据，包含标题、链接和摘要
     """
     dic = {}
     for k, v in rss_json.items():
@@ -42,21 +42,30 @@ def get_arxiv_data():
         soup = bs(r.text, 'xml')
         items = soup.find_all('item')
         for i in range(len(items)):
-            # print(items[i].find('title').text.split("(arXiv")[0].strip(), items[i].find('link').text)
-            dic[items[i].find('title').text.split("(arXiv")[0].strip()] = items[i].find('link').text
+            title = items[i].find('title').text.split("(arXiv")[0].strip()
+            link = items[i].find('link').text
+            
+            # 获取摘要信息
+            description = items[i].find('description').text
+            # 清理摘要文本，去除HTML标签
+            abstract_soup = bs(description, 'html.parser')
+            abstract = abstract_soup.get_text().strip()
+            
+            # 存储为元组：(链接, 摘要)
+            dic[title] = (link, abstract)
     return dic
 
 
 def filter_keywords(dic, keywords):
     """过滤关键词
     """
-    # res = [(k, v) for k, v in dic.items() if any(map(lambda y: y.lower() in k.lower(), keywords))]
     print("Keyword", keywords)
     res = defaultdict(list)
     for k, v in dic.items():
         for w in keywords:
             if w.lower() in k.lower():
-                res[w].append((k, v))
+                # v现在是(link, abstract)元组
+                res[w].append((k, v[0], v[1]))  # (title, link, abstract)
     return res
 
 def sendEmail(msg_from, msg_to, auth_id, title, content):
@@ -86,26 +95,78 @@ def main(args):
     if len(res) == 0:
         print("没有新的文章")
     else:
-        # content = "\n".join(["{} {}".format(k, v) for k, v in res])
+        # 添加CSS样式
+        style = """
+        <style>
+            body { font-family: Arial, sans-serif; line-height: 1.6; }
+            h1 { color: #333; }
+            h2 { color: #555; margin-top: 30px; }
+            .paper-item { 
+                margin-bottom: 20px; 
+                padding: 15px;
+                background-color: #f5f5f5;
+                border-radius: 5px;
+                border-left: 4px solid #007bff;
+            }
+            .paper-title { 
+                font-weight: bold; 
+                color: #333;
+                margin-bottom: 10px;
+            }
+            .paper-abstract { 
+                margin-top: 10px;
+                color: #666;
+                text-align: justify;
+                padding: 10px;
+                background-color: #fff;
+                border-radius: 3px;
+            }
+            .paper-link { 
+                margin-top: 10px;
+            }
+            a { color: #007bff; text-decoration: none; }
+            a:hover { text-decoration: underline; }
+        </style>
+        """
+        
         main_html = []
         for k, v in res.items():
             paper_html = []
-            for paper, link in v:
-                paper_html.append("""<li>{paper} &nbsp;&nbsp;&nbsp;  <a href={link}>link</a></li>""".format(paper=paper, link=link))
+            for paper, link, abstract in v:
+                # 限制摘要长度，如果太长可以截断
+                if len(abstract) > 500:
+                    abstract = abstract[:500] + "..."
+                
+                paper_item = """
+                <div class="paper-item">
+                    <div class="paper-title">{paper}</div>
+                    <div class="paper-abstract">{abstract}</div>
+                    <div class="paper-link"><a href="{link}" target="_blank">Read Paper →</a></div>
+                </div>
+                """.format(paper=paper, abstract=abstract, link=link)
+                paper_html.append(paper_item)
+            
             paper_html = " ".join(paper_html)
             res_html = """
-            <h2>{subject}</h2>
-            <ul>
+            <h2>Keyword: {subject}</h2>
             {paper_html}
-            </ul>
             """.format(subject=k, paper_html=paper_html)
             main_html.append(res_html)
+        
         main_html = " ".join(main_html)
 
         today = datetime.date.today().__str__()
-        content = """<h1>{today}</h1>
-        {main_html}
-        """.format(today=today, main_html=main_html)
+        content = """
+        <html>
+        <head>
+            {style}
+        </head>
+        <body>
+            <h1>ArXiv Daily - {today}</h1>
+            {main_html}
+        </body>
+        </html>
+        """.format(style=style, today=today, main_html=main_html)
         
         print(content)
         sendEmail(args.email, args.receiver, args.token, args.title, content)
@@ -120,4 +181,3 @@ if __name__ == '__main__':
     args.title = "arxiv Daily"
     
     main(args)
-    
