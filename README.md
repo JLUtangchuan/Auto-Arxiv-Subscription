@@ -9,6 +9,7 @@
      - EMAIL_TOKEN    (邮件授权码: 在邮箱设置中找到)
      - RECEIVER_EMAIL (邮件接收方: 个人的任意邮箱)
      - KEYWORDS       (查询关键词: 可以是多个关键词, 以空格分隔)
+     - DASHSCOPE_API_KEY (信息提取API)
 3. 点击Action, 查看workflow是否建立成功, 如果失败可以Re-run
 4. 在邮箱中查看是否收到邮件
 > 每天早七点自动发邮件, 请在[这里](https://github.com/JLUtangchuan/Auto-Arxiv-Subscription/blob/main/.github/workflows/actions.yml#L8)修改更改时间
