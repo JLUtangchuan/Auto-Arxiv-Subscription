@@ -51,8 +51,8 @@ def init_ai_client():
     try:
         client = OpenAI(
             api_key=os.getenv("DASHSCOPE_API_KEY"),
-            base_url="https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
-            # base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+            # base_url="https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+            base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
         )
         return client
     except Exception as e:
