@@ -33,4 +33,5 @@ jobs:
           RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
           KEYWORDS: ${{ secrets.KEYWORDS }}
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
         run: python src/main.py --email $EMAIL --token $EMAIL_TOKEN --receiver $RECEIVER_EMAIL --keywords $KEYWORDS

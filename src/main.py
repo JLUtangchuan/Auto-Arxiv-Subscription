@@ -85,7 +85,7 @@ def process_abstract_with_ai(client, title, abstract):
 """
         
         completion = client.chat.completions.create(
-            model="qwen3-max",
+            model=os.getenv("OPENAI_MODEL", "qwen3-max-preview"),
             messages=[
                 {"role": "system", "content": "你是一个专业的学术论文分析助手，擅长翻译和提取关键信息。"},
                 {"role": "user", "content": prompt},
