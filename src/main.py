@@ -117,15 +117,36 @@ def process_abstract_with_ai(client, title, abstract):
         return abstract, "", []
 
 def get_arxiv_data():
-    """获取arxiv数据，包含标题、链接和摘要
+    """获取arxiv数据，包含标题、链接和摘要，只返回今天的论文
     """
     dic = {}
+    # 获取今天的日期，格式为YYYY-MM-DD
+    today = datetime.date.today().strftime('%Y-%m-%d')
+    
     for k, v in rss_json.items():
         url = 'https://' + v
         r = requests.get(url)
         soup = bs(r.text, 'xml')
         items = soup.find_all('item')
         for i in range(len(items)):
+            # 获取发布日期
+            pub_date = items[i].find('pubDate').text
+            
+            # 解析日期
+            try:
+                # 将pubDate转换为datetime对象
+                # RSS日期格式通常是类似 'Wed, 29 May 2024 00:00:00 GMT'
+                pub_date_obj = datetime.datetime.strptime(pub_date, '%a, %d %b %Y %H:%M:%S %Z')
+                # 转换为YYYY-MM-DD格式进行比较
+                pub_date_str = pub_date_obj.strftime('%Y-%m-%d')
+                
+                # 只保留今天的论文
+                if pub_date_str != today:
+                    continue
+            except ValueError:
+                # 如果日期解析失败，跳过该论文
+                continue
+            
             title = items[i].find('title').text.split("(arXiv")[0].strip()
             link = items[i].find('link').text
             
@@ -137,6 +158,8 @@ def get_arxiv_data():
             
             # 存储为元组：(链接, 原始摘要)
             dic[title] = (link, abstract)
+    
+    print(f"已获取今天({today})的论文共 {len(dic)} 篇")
     return dic
 
 
