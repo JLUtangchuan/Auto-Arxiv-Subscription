@@ -122,7 +122,7 @@ def get_arxiv_data():
     dic = {}
     # 获取今天的日期，格式为YYYY-MM-DD
     today = datetime.date.today()
-
+    print("today is ", today)
     for k, v in rss_json.items():
         url = 'https://' + v
         r = requests.get(url)
@@ -136,19 +136,20 @@ def get_arxiv_data():
             try:
                 # 将pubDate转换为datetime对象
                 # RSS日期格式通常是类似 'Wed, 29 May 2024 00:00:00 GMT'
-                pub_date_obj = datetime.datetime.strptime(pub_date, '%a, %d %b %Y %H:%M:%S %Z')
+                pub_date_obj = datetime.datetime.strptime(pub_date, '%a, %d %b %Y %H:%M:%S %z')
                 # 转换为date对象进行比较
                 pub_date_date = pub_date_obj.date()
                 
                 # 计算日期差
                 days_diff = (today - pub_date_date).days
-                
+                print(items[i].find('title').text.split("(arXiv")[0].strip(), pub_date_date)
                 # 只保留2天内的论文（包括今天）
                 if days_diff < 0 or days_diff > 2:
                     continue
             except ValueError:
                 # 如果日期解析失败，跳过该论文
                 continue
+                print("Parse error")
             
             title = items[i].find('title').text.split("(arXiv")[0].strip()
             link = items[i].find('link').text
