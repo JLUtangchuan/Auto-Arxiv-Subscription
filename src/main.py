@@ -23,6 +23,7 @@ from collections import defaultdict
 import requests
 from bs4 import BeautifulSoup as bs
 from openai import OpenAI
+import yaml
 import pdb
 
 rss_json = {
@@ -163,6 +164,61 @@ def get_arxiv_data():
     return dic
 
 
+def load_previous_papers():
+    """加载前一天的论文记录，返回论文标题集合"""
+    papers_dir = "papers"
+    previous_papers = set()
+
+    # 获取昨天的日期
+    yesterday = datetime.date.today() - datetime.timedelta(days=1)
+    yesterday_str = yesterday.strftime('%Y-%m-%d')
+    yaml_path = os.path.join(papers_dir, f"{yesterday_str}.yaml")
+
+    if os.path.exists(yaml_path):
+        try:
+            with open(yaml_path, 'r', encoding='utf-8') as f:
+                data = yaml.safe_load(f)
+                if data and 'papers' in data:
+                    previous_papers = set(data['papers'])
+                    print(f"加载前一天的论文记录: {len(previous_papers)} 篇")
+        except Exception as e:
+            print(f"加载前一天论文记录失败: {e}")
+
+    return previous_papers
+
+
+def save_today_papers(papers_dict):
+    """保存今天的论文标题到YAML文件"""
+    papers_dir = "papers"
+
+    # 创建papers目录（如果不存在）
+    if not os.path.exists(papers_dir):
+        os.makedirs(papers_dir)
+        print(f"创建目录: {papers_dir}")
+
+    # 获取今天的日期
+    today = datetime.date.today().strftime('%Y-%m-%d')
+    yaml_path = os.path.join(papers_dir, f"{today}.yaml")
+
+    # 提取所有论文标题
+    paper_titles = list(papers_dict.keys())
+
+    # 构建YAML数据结构
+    data = {
+        'date': today,
+        'total_count': len(paper_titles),
+        'papers': paper_titles
+    }
+
+    # 保存到YAML文件
+    try:
+        with open(yaml_path, 'w', encoding='utf-8') as f:
+            yaml.dump(data, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
+        print(f"保存今天的论文记录到: {yaml_path}")
+    except Exception as e:
+        print(f"保存论文记录失败: {e}")
+
+
 def filter_keywords(dic, keywords):
     """过滤关键词
     """
@@ -226,9 +282,24 @@ def main(args):
     ai_client = init_ai_client()
     if not ai_client:
         print("警告：AI客户端初始化失败，将使用原始摘要")
-    
+
     # 获取arvix最新的文章
     dic = get_arxiv_data()
+
+    # 保存今天的论文记录
+    save_today_papers(dic)
+
+    # 加载前一天的论文记录
+    previous_papers = load_previous_papers()
+
+    # 移除前一天已经存在的论文
+    if previous_papers:
+        original_count = len(dic)
+        dic = {k: v for k, v in dic.items() if k not in previous_papers}
+        removed_count = original_count - len(dic)
+        if removed_count > 0:
+            print(f"跳过前一天已发送的论文: {removed_count} 篇")
+
     # 读取keywords进行过滤
     filtered_res = filter_keywords(dic, args.keywords)
     
