@@ -34,7 +34,8 @@ jobs:
           KEYWORDS: ${{ secrets.KEYWORDS }}
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
-        run: python src/main.py --email $EMAIL --token $EMAIL_TOKEN --receiver $RECEIVER_EMAIL --keywords $KEYWORDS
+          DOMAIN: ${{ secrets.DOMAIN }}
+        run: python src/main.py --email $EMAIL --token $EMAIL_TOKEN --receiver $RECEIVER_EMAIL --keywords $KEYWORDS --domain "$DOMAIN"
       - name: 'Commit papers data'
         run: |
           git config --local user.email "action@github.com"
