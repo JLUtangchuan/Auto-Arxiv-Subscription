@@ -35,18 +35,6 @@ def get_arxiv_data():
                 # Get publication date
                 pub_date = items[i].find('pubDate').text
 
-                # Parse date
-                try:
-                    pub_date_obj = datetime.datetime.strptime(pub_date, '%a, %d %b %Y %H:%M:%S %Z')
-                    pub_date_str = pub_date_obj.strftime('%Y-%m-%d')
-
-                    # Only keep today's papers
-                    if pub_date_str != today:
-                        continue
-                except ValueError:
-                    # If date parsing fails, skip this paper
-                    continue
-
                 title = items[i].find('title').text.split("(arXiv")[0].strip()
                 link = items[i].find('link').text
 
