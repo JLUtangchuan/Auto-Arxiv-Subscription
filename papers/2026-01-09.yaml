@@ -1,0 +1,922 @@
+date: '2026-01-09'
+total_count: 660
+papers:
+- Mastering the Game of Go with Self-play Experience Replay
+- 'Digital Red Queen: Adversarial Program Evolution in Core War with LLMs'
+- 'Enhancing LLM Instruction Following: An Evaluation-Driven Multi-Agentic Workflow
+  for Prompt Instructions Optimization'
+- 'Exploration Through Introspection: A Self-Aware Reward Model'
+- 'Toward Maturity-Based Certification of Embodied AI: Quantifying Trustworthiness
+  Through Measurement Mechanisms'
+- 'CPGPrompt: Translating Clinical Guidelines into LLM-Executable Decision Support'
+- Personalization of Large Foundation Models for Health Interventions
+- Evolving Programmatic Skill Networks
+- Variance Computation for Weighted Model Counting with Knowledge Compilation Approach
+- 'STAR-S: Improving Safety Alignment through Self-Taught Reasoning on Safety Rules'
+- 'ReEfBench: Quantifying the Reasoning Efficiency of LLMs'
+- 'SCRIBE: Structured Mid-Level Supervision for Tool-Using Language Models'
+- Controllable LLM Reasoning via Sparse Autoencoder-Based Steering
+- Interleaved Tool-Call Reasoning for Protein Function Understanding
+- Architecting Agentic Communities using Design Patterns
+- How Does the Thinking Step Influence Model Safety? An Entropy-based Safety Reminder
+  for LRMs
+- 'Sandwich Reasoning: An Answer-Reasoning-Answer Approach for Low-Latency Query Correction'
+- Personalized Medication Planning via Direct Domain Modeling and LLM-Generated Heuristics
+- 'EntroCoT: Enhancing Chain-of-Thought via Adaptive Entropy-Guided Segmentation'
+- 'ROI-Reasoning: Rational Optimization for Inference via Pre-Computation Meta-Cognition'
+- Defeasible Conditionals using Answer Set Programming
+- 'XAI-LAW: A Logic Programming Tool for Modeling, Explaining, and Learning Legal
+  Decisions'
+- Formally Explaining Decision Tree Models with Answer Set Programming
+- 'xDNN(ASP): Explanation Generation System for Deep Neural Networks powered by Answer
+  Set Programming'
+- 'Investigating the Grounding Bottleneck for a Large-Scale Configuration Problem:
+  Existing Tools and Constraint-Aware Guessing'
+- Current Agents Fail to Leverage World Model as Tool for Foresight
+- 'Trade-R1: Bridging Verifiable Rewards to Stochastic Environments via Process-Level
+  Reasoning Verification'
+- 'Anti-Length Shift: Dynamic Outlier Truncation for Training Efficient Reasoning
+  Models'
+- 'MobileDreamer: Generative Sketch World Model for GUI Agent'
+- 'ComfySearch: Autonomous Exploration and Reasoning for ComfyUI Workflows'
+- 'Agent Drift: Quantifying Behavioral Degradation in Multi-Agent LLM Systems Over
+  Extended Interactions'
+- 'DeepResearch-Slice: Bridging the Retrieval-Utilization Gap via Explicit Text Slicing'
+- 'Internal Reasoning vs. External Control: A Thermodynamic Analysis of Sycophancy
+  in Large Language Models'
+- Benchmarking and Adapting On-Device Large Language Models for Clinical Decision
+  Support
+- OpenAI GPT-5 System Card
+- 'The Instruction Gap: LLMs get lost in Following Instruction'
+- 'Advances and Challenges in Semantic Textual Similarity: A Comprehensive Survey'
+- 'Less is more: Not all samples are effective for evaluation'
+- 'GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness
+  in LLM Moderators'
+- 'LLM_annotate: A Python package for annotating and analyzing fiction characters'
+- Topic Segmentation Using Generative Language Models
+- 'MixRx: Predicting Drug Combination Interactions with LLMs'
+- A Quantum Model for Constrained Markowitz Modern Portfolio Using Slack Variables
+  to Process Mixed-Binary Optimization under QAOA
+- '$\alpha^3$-Bench: A Unified Benchmark of Safety, Robustness, and Efficiency for
+  LLM-Based UAV Agents over 6G Networks'
+- AI-Guided Discovery of Novel Ionic Liquid Solvents for Industrial CO2 Capture
+- Feedback Indices to Evaluate LLM Responses to Rebuttals for Multiple Choice Type
+  Questions
+- HyperCLOVA X 32B Think
+- Automated Post-Incident Policy Gap Analysis via Threat-Informed Evidence Mapping
+  using Large Language Models
+- Lightweight Transformer Architectures for Edge Devices in Real-Time Applications
+- 'AgentMark: Utility-Preserving Behavioral Watermarking for Agents'
+- '130k Lines of Formal Topology in Two Weeks: Simple and Cheap Autoformalization
+  for Everyone?'
+- 'PC2P: Multi-Agent Path Finding via Personalized-Enhanced Communication and Crowd
+  Perception'
+- 'CageDroneRF: A Large-Scale RF Benchmark and Toolkit for Drone Perception'
+- 'AI-Driven Cybersecurity Threats: A Survey of Emerging Risks and Defensive Strategies'
+- Mass Concept Erasure in Diffusion Models with Concept Hierarchy
+- 'VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models'
+- 'Why LLMs Aren''t Scientists Yet: Lessons from Four Autonomous Research Attempts'
+- Deep Learning-Based Image Recognition for Soft-Shell Shrimp Classification
+- 'CaricatureGS: Exaggerating 3D Gaussian Splatting Faces With Gaussian Curvature'
+- Ratio-Variance Regularized Policy Optimization for Efficient LLM Fine-tuning
+- 'Aligning Findings with Diagnosis: A Self-Consistent Reinforcement Learning Framework
+  for Trustworthy Radiology Reporting'
+- 'HEEGNet: Hyperbolic Embeddings for EEG'
+- 'Bare-Metal Tensor Virtualization: Overcoming the Memory Wall in Edge-AI Inference
+  on ARM64'
+- Extreme-value forest fire prediction A study of the Loss Function in an Ordinality
+  Scheme
+- Attention mechanisms in neural networks
+- 'MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models'
+- Metaphors are a Source of Cross-Domain Misalignment of Large Reasoning Models
+- 'Eye-Q: A Multilingual Benchmark for Visual Word Puzzle Solving and Image-to-Phrase
+  Reasoning'
+- 'Tigrinya Number Verbalization: Rules, Algorithm, and Implementation'
+- 'Jailbreaking LLMs Without Gradients or Priors: Effective and Transferable Attacks'
+- Training-Free Adaptation of New-Generation LLMs using Legacy Clinical Models
+- 'Spectral Archaeology: The Causal Topology of Model Evolution'
+- 'The Illusion of Specialization: Unveiling the Domain-Invariant "Standing Committee"
+  in Mixture-of-Experts Models'
+- 'MARVEL: A Multi Agent-based Research Validator and Enabler using Large Language
+  Models'
+- Discriminating real and synthetic super-resolved audio samples using embedding-based
+  classifiers
+- 'Grading Scale Impact on LLM-as-a-Judge: Human-LLM Alignment Is Highest on 0-5 Grading
+  Scale'
+- Soft Contextualized Encoder For User Defined Text Classification
+- Microeconomic Foundations of Multi-Agent Learning
+- 'Automated Feedback Generation for Undergraduate Mathematics: Development and Evaluation
+  of an AI Teaching Assistant'
+- An Expectation-Maximization Algorithm for Domain Adaptation in Gaussian Causal Models
+- 'FROST-Drive: Scalable and Efficient End-to-End Driving with a Frozen Vision Encoder'
+- 'Content vs. Form: What Drives the Writing Score Gap Across Socioeconomic Backgrounds?
+  A Generated Panel Approach'
+- 'EpiQAL: Benchmarking Large Language Models in Epidemiological Question Answering
+  for Enhanced Alignment and Reasoning'
+- 'SegNSP: Revisiting Next Sentence Prediction for Linear Text Segmentation'
+- Online Decision-Making Under Uncertainty for Vehicle-to-Building Systems
+- Efficient Sequential Recommendation for Long Term User Interest Via Personalization
+- 'CroBIM-U: Uncertainty-Driven Referring Remote Sensing Image Segmentation'
+- Submodular Evaluation Subset Selection in Automatic Prompt Optimization
+- Cyberattack Detection in Virtualized Microgrids Using LightGBM and Knowledge-Distilled
+  Classifiers
+- 'SDCD: Structure-Disrupted Contrastive Decoding for Mitigating Hallucinations in
+  Large Vision-Language Models'
+- 'Beyond Perplexity: A Lightweight Benchmark for Knowledge Retention in Supervised
+  Fine-Tuning'
+- Reasoning Pattern Alignment Merging for Adaptive Reasoning
+- 'IntroLM: Introspective Language Models via Prefilling-Time Self-Evaluation'
+- Bootstrapping Code Translation with Weighted Multilanguage Exploration
+- 'Deploy-Master: Automating the Deployment of 50,000+ Agent-Ready Scientific Tools
+  in One Day'
+- 'Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents'
+- A Reinforcement Learning-Based Model for Mapping and Goal-Directed Navigation Using
+  Multiscale Place Fields
+- 'VeRPO: Verifiable Dense Reward Policy Optimization for Code Generation'
+- 'Layer-Order Inversion: Rethinking Latent Multi-Hop Reasoning in Large Language
+  Models'
+- Value-Action Alignment in Large Language Models under Privacy-Prosocial Conflict
+- 'Evaluating LLMs for Police Decision-Making: A Framework Based on Police Action
+  Scenarios'
+- A Proposed Paradigm for Imputing Missing Multi-Sensor Data in the Healthcare Domain
+- Deontic Knowledge Graphs for Privacy Compliance in Multimodal Disaster Data Sharing
+- Can LLMs See Without Pixels? Benchmarking Spatial Intelligence from Textual Descriptions
+- 'From Chains to Graphs: Self-Structured Reasoning for General-Domain LLMs'
+- 'ALERT: Zero-shot LLM Jailbreak Detection via Internal Discrepancy Amplification'
+- Policy-Guided Search on Tree-of-Thoughts for Efficient Problem Solving with Bounded
+  Language Model Queries
+- Investigation into respiratory sound classification for an imbalanced data set using
+  hybrid LSTM-KAN architectures
+- Evaluating the Pre-Consultation Ability of LLMs using Diagnostic Guidelines
+- 'ReStyle-TTS: Relative and Continuous Style Control for Zero-Shot Speech Synthesis'
+- 'MFC-RFNet: A Multi-scale Guided Rectified Flow Network for Radar Sequence Prediction'
+- 'ReLA: Representation Learning and Aggregation for Job Scheduling with Reinforcement
+  Learning'
+- 'In Search of Grandmother Cells: Tracing Interpretable Neurons in Tabular Representations'
+- Group and Exclusive Sparse Regularization-based Continual Learning of CNNs
+- 'AMIR-GRPO: Inducing Implicit Preference Signals into GRPO'
+- 'e5-omni: Explicit Cross-modal Alignment for Omni-modal Embeddings'
+- Discontinuous Galerkin finite element operator network for solving non-smooth PDEs
+- Disentangling Aleatoric and Epistemic Uncertainty in Physics-Informed Neural Networks.
+  Application to Insulation Material Degradation Prognostics
+- Towards Compositional Generalization of LLMs via Skill Taxonomy Guided Data Synthesis
+- 'From Implicit to Explicit: Token-Efficient Logical Supervision for Mathematical
+  Reasoning in LLMs'
+- A Pre-trained Reaction Embedding Descriptor Capturing Bond Transformation Patterns
+- Can AI Chatbots Provide Coaching in Engineering? Beyond Information Processing Toward
+  Mastery
+- 'ADEPT: Adaptive Dynamic Early-Exit Process for Transformers'
+- Inference Attacks Against Graph Generative Diffusion Models
+- 'TreeAdv: Tree-Structured Advantage Redistribution for Group-Based RL'
+- Investigating Knowledge Distillation Through Neural Networks for Protein Binding
+  Affinity Prediction
+- 'MHRC-Bench: A Multilingual Hardware Repository-Level Code Completion benchmark'
+- 'The Power of 10: New Rules for the Digital World'
+- 'R$^3$L: Reflect-then-Retry Reinforcement Learning with Language-Guided Exploration,
+  Pivotal Credit, and Positive Amplification'
+- 'CSMCIR: CoT-Enhanced Symmetric Alignment with Memory Bank for Composed Image Retrieval'
+- 'From Laboratory to Real-World Applications: Benchmarking Agentic Code Reasoning
+  at the Repository Level'
+- 'RadDiff: Describing Differences in Radiology Image Sets with Natural Language'
+- 'O-Researcher: An Open Ended Deep Research Model via Multi-Agent Distillation and
+  Agentic RL'
+- 'Bridging OLAP and RAG: A Multidimensional Approach to the Design of Corpus Partitioning'
+- Evaluation of Multilingual LLMs Personalized Text Generation Capabilities Targeting
+  Groups and Social-Media Platforms
+- 'Learning Shrinks the Hard Tail: Training-Dependent Inference Scaling in a Solvable
+  Linear Model'
+- Scalable Machine Learning Force Fields for Macromolecular Systems Through Long-Range
+  Aware Message Passing
+- 'PointWorld: Scaling 3D World Models for In-The-Wild Robotic Manipulation'
+- 'Membox: Weaving Topic Continuity into Long-Range Memory for LLM Agents'
+- Criminal Liability of Generative Artificial Intelligence Providers for User-Generated
+  Child Sexual Abuse Material
+- 'NeoAMT: Neologism-Aware Agentic Machine Translation with Reinforcement Learning'
+- Do LLMs Really Memorize Personally Identifiable Information? Revisiting PII Leakage
+  with a Cue-Controlled Memorization Framework
+- 'An Algorithmic Framework for Systematic Literature Reviews: A Case Study for Financial
+  Narratives'
+- 'Where meaning lives: Layer-wise accessibility of psycholinguistic features in encoder
+  and decoder language models'
+- AI Generated Text Detection
+- 'IDESplat: Iterative Depth Probability Estimation for Generalizable 3D Gaussian
+  Splatting'
+- Logic Tensor Network-Enhanced Generative Adversarial Network
+- On the Trap Space Semantics of Normal Logic Programs
+- 'When Numbers Start Talking: Implicit Numerical Coordination Among LLM-Based Agents'
+- Implementing the First-Order Logic of Here and There
+- What Matters For Safety Alignment?
+- 'Women Worry, Men Adopt: How Gendered Perceptions Shape the Use of Generative AI'
+- 'FLNet: Flood-Induced Agriculture Damage Assessment using Super Resolution of Satellite
+  Images'
+- IndexTTS 2.5 Technical Report
+- Spectral Manifold Regularization for Stable and Modular Routing in Deep MoE Architectures
+- 'Adaptive-Boundary-Clipping GRPO: Ensuring Bounded Ratios for Stable and Generalizable
+  Training'
+- An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning
+- A Gap Between Decision Trees and Neural Networks
+- 'FocusUI: Efficient UI Grounding via Position-Preserving Visual Token Selection'
+- 'Bayes-PD: Exploring a Sequence to Binding Bayesian Neural Network model trained
+  on Phage Display data'
+- 'FOREVER: Forgetting Curve-Inspired Memory Replay for Language Model Continual Learning'
+- Large-Scale Aspect-Based Sentiment Analysis with Reasoning-Infused LLMs
+- A Scheduling Framework for Efficient MoE Inference on Edge GPU-NDP Systems
+- 'HoneyTrap: Deceiving Large Language Model Attackers to Honeypot Traps with Resilient
+  Multi-Agent Defense'
+- 'Mind the Generative Details: Direct Localized Detail Preference Optimization for
+  Video Diffusion Models'
+- Analyzing Reasoning Consistency in Large Multimodal Models under Cross-Modal Conflicts
+- 'CSSG: Measuring Code Similarity with Semantic Graphs'
+- Layer-wise Positional Bias in Short-Context Language Modeling
+- Quantifying the Impact of Modules and Their Interactions in the PSO-X Framework
+- 'InfiniteWeb: Scalable Web Environment Synthesis for GUI Agent Training'
+- Pixel-Wise Multimodal Contrastive Learning for Remote Sensing Images
+- 'ContextFocus: Activation Steering for Contextual Faithfulness in Large Language
+  Models'
+- Wow, wo, val! A Comprehensive Embodied World Model Evaluation Turing Test
+- 'Klear: Unified Multi-Task Audio-Video Joint Generation'
+- Clinical Data Goes MEDS? Let's OWL make sense of it
+- Embedding Autonomous Agents in Resource-Constrained Robotic Platforms
+- 'F{\AE}RDXEL: An Expert System for Danish Traffic Law'
+- 'Imagining and building wise machines: The centrality of AI metacognition'
+- 'VERUS-LM: a Versatile Framework for Combining LLMs with Symbolic Reasoning'
+- 'SPIO: Ensemble and Selective Strategies via LLM-Based Multi-Agent Planning in Automated
+  Data Science'
+- 'Beyond Chemical QA: Evaluating LLM''s Chemical Reasoning with Modular Chemical
+  Operations'
+- A framework for Conditional Reasoning in Answer Set Programming
+- The ASP-based Nurse Scheduling System at the University of Yamanashi Hospital
+- Interpretable Hybrid Machine Learning Models Using FOLD-R++ and Answer Set Programming
+- An ASP-Based Framework for MUSes
+- 'League of LLMs: A Benchmark-Free Paradigm for Mutual Evaluation of Large Language
+  Models'
+- 'Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools'
+- 'Answering the Unanswerable Is to Err Knowingly: Analyzing and Mitigating Abstention
+  Failures in Large Reasoning Models'
+- 'D-Artemis: A Deliberative Cognitive Framework for Mobile GUI Multi-Agents'
+- Multiplayer Nash Preference Optimization
+- Agentic Exploration of Physics Models
+- 'DeepSearch: Overcome the Bottleneck of Reinforcement Learning with Verifiable Rewards
+  via Monte Carlo Tree Search'
+- 'ChartAgent: A Multimodal Agent for Visually Grounded Reasoning in Complex Chart
+  Question Answering'
+- 'When Identity Skews Debate: Anonymization for Bias-Reduced Multi-Agent Reasoning'
+- 'ELAIPBench: A Benchmark for Expert-Level Artificial Intelligence Paper Understanding'
+- 'Better Call CLAUSE: A Discrepancy Benchmark for Auditing LLMs Legal Reasoning Capabilities'
+- 'Chain-of-Thought as a Lens: Evaluating Structured Reasoning Alignment between Human
+  Preferences and Large Language Models'
+- Faithful-First Reasoning, Planning, and Acting for Multimodal LLMs
+- Boosting In-Silicon Directed Evolution with Fine-Tuned Protein Language Model and
+  Tree Search
+- Multi-Agent LLM Orchestration Achieves Deterministic, High-Quality Decision Support
+  for Incident Response
+- Navigating Taxonomic Expansions of Entity Sets Driven by Knowledge Bases
+- 'NEMO-4-PAYPAL: Leveraging NVIDIA''s Nemo Framework for empowering PayPal''s Commerce
+  Agent'
+- Monadic Context Engineering
+- 'MindWatcher: Toward Smarter Multimodal Tool-Integrated Reasoning'
+- 'Jenius Agent: Towards Experience-Driven Accuracy Optimization in Real-World Scenarios'
+- 'FormuLLA: A Large Language Model Approach to Generating Novel 3D Printable Formulations'
+- 'HAL: Inducing Human-likeness in LLMs with Alignment'
+- Discovering the Representation Bottleneck of Graph Neural Networks
+- Instructor-inspired Machine Learning for Robust Molecular Property Prediction
+- Computing Universal Plans for Partially Observable Multi-Agent Routing Using Answer
+  Set Programming
+- 'Towards the Terminator Economy: Assessing Job Exposure to AI through LLMs'
+- A Systematic Comparison between Extractive Self-Explanations and Human Rationales
+  in Text Classification
+- An Overview of Prototype Formulations for Interpretable Deep Learning
+- 'SSSD: Simply-Scalable Speculative Decoding'
+- Exploring Iterative Controllable Summarization with Large Language Models
+- 'FedDUAL: A Dual-Strategy with Adaptive Loss and Dynamic Aggregation for Mitigating
+  Data Heterogeneity in Federated Learning'
+- 'EquiTabPFN: A Target-Permutation Equivariant Prior Fitted Networks'
+- 'Marking Code Without Breaking It: Code Watermarking for Detecting LLM-Generated
+  Code'
+- Physics-Driven Data Generation for Contact-Rich Manipulation via Trajectory Optimization
+- Brain-Inspired Exploration of Functional Networks and Key Neurons in Large Language
+  Models
+- 'Detecting PTSD in Clinical Interviews: A Comparative Analysis of NLP Methods and
+  Large Language Models'
+- Architecture independent generalization bounds for overparametrized deep ReLU networks
+- Uncertainty-Aware Robotic World Model Makes Offline Model-Based Reinforcement Learning
+  Work on Real Robots
+- 'S2Vec: Self-Supervised Geospatial Embeddings for the Built Environment'
+- 'SPD Matrix Learning for Neuroimaging Analysis: Perspectives, Methods, and Challenges'
+- 'VISTA: Mitigating Semantic Inertia in Video-LLMs via Training-Free Dynamic Chain-of-Thought
+  Routing'
+- Social Bias in Popular Question-Answering Benchmarks
+- 'Shared Path: Unraveling Memorization in Multilingual LLMs through Language Similarities'
+- 'FinTagging: Benchmarking LLMs for Extracting and Structuring Financial Information'
+- 'Dissecting Physics Reasoning in Small Language Models: A Multi-Dimensional Analysis
+  from an Educational Perspective'
+- 'Reward Is Enough: LLMs Are In-Context Reinforcement Learners'
+- 'Task Matters: Knowledge Requirements Shape LLM Responses to Context-Memory Conflict'
+- Improved LLM Agents for Financial Document Question Answering
+- 'Uncovering Bias Paths with LLM-guided Causal Discovery: An Active Learning and
+  Dynamic Scoring Approach'
+- Machine Learning Model Integration with Open World Temporal Logic for Process Automation
+- Benchmarking Content-Based Puzzle Solvers on Corrupted Jigsaw Puzzles
+- Low Resource Reconstruction Attacks Through Benign Prompts
+- 'The Invisible Leash: Why RLVR May or May Not Escape Its Origin'
+- CNN-based Surface Temperature Forecasts with Ensemble Numerical Weather Prediction
+  over Medium-range Forecast Periods
+- 'LAG: Logic-Augmented Generation from a Cartesian Perspective'
+- 'Neural Network Quantization for Microcontrollers: A Comprehensive Survey of Methods,
+  Platforms, and Applications'
+- Task-Stratified Knowledge Scaling Laws for Post-Training Quantized Large Language
+  Models
+- 'LFD: Layer Fused Decoding to Exploit External Knowledge in Retrieval-Augmented
+  Generation'
+- 'MyGO: Memory Yielding Generative Offline-consolidation for Lifelong Learning Systems'
+- Web Fraud Attacks Against LLM-Driven Multi-Agent Systems
+- 'A Systematic Survey on Large Language Models for Evolutionary Optimization: From
+  Modeling to Solving'
+- 'OnlineMate: An LLM-Based Multi-Agent Companion System for Cognitive Support in
+  Online Learning'
+- 'Relevance to Utility: Process-Supervised Rewrite for RAG'
+- 'DyBBT: Dynamic Balance via Bandit inspired Targeting for Dialog Policy with Cognitive
+  Dual-Systems'
+- 'HiCoLoRA: Addressing Context-Prompt Misalignment via Hierarchical Collaborative
+  LoRA for Zero-Shot DST'
+- 'CaTS-Bench: Can Language Models Describe Time Series?'
+- How Training Data Shapes the Use of Parametric and In-Context Knowledge in Language
+  Models
+- AI-Driven Grading and Moderation for Collaborative Projects in Computer Science
+  Education
+- A Hybrid Computational Intelligence Framework with Metaheuristic Optimization for
+  Drug-Drug Interaction Prediction
+- 'Big Reasoning with Small Models: Instruction Retrieval at Inference Time'
+- 'LiteStage: Latency-aware Layer Skipping for Multi-stage Reasoning'
+- 'L-MoE: End-to-End Training of a Lightweight Mixture of Low-Rank Adaptation Experts'
+- User Perceptions of Privacy and Helpfulness in LLM Responses to Privacy-Sensitive
+  Scenarios
+- 'Beyond Direct Generation: A Decomposed Approach to Well-Crafted Screenwriting with
+  LLMs'
+- 'Computational Foundations for Strategic Coopetition: Formalizing Trust and Reputation
+  Dynamics'
+- 'Alpamayo-R1: Bridging Reasoning and Action Prediction for Generalizable Autonomous
+  Driving in the Long Tail'
+- 'EngTrace: A Symbolic Benchmark for Verifiable Process Supervision of Engineering
+  Reasoning'
+- 'Transolver is a Linear Transformer: Revisiting Physics-Attention through the Lens
+  of Linear Attention'
+- Enabling Agents to Communicate Entirely in Latent Space
+- Multivariate Diffusion Transformer with Decoupled Attention for High-Fidelity Mask-Text
+  Collaborative Facial Generation
+- 'CausalProfiler: Generating Synthetic Benchmarks for Rigorous and Transparent Evaluation
+  of Causal Machine Learning'
+- Table as a Modality for Large Language Models
+- 'Venus: An Efficient Edge Memory-and-Retrieval System for VLM-based Online Video
+  Understanding'
+- 'SWAA: Sliding Window Attention Adaptation for Efficient Long-Context LLMs Without
+  Pretraining'
+- Rethinking Jailbreak Detection of Large Vision Language Models with Representational
+  Contrastive Scoring
+- Improving Underwater Acoustic Classification Through Learnable Gabor Filter Convolution
+  and Attention Mechanisms
+- 'V-Agent: An Interactive Video Search System Using Vision-Language Models'
+- 'A Formal Descriptive Language for Learning Dynamics: A Five-Layer Structural Coordinate
+  System'
+- 'VULCAN: Tool-Augmented Multi Agents for Iterative 3D Object Arrangement'
+- 'When in Doubt, Consult: Expert Debate for Sexism Detection via Confidence-Based
+  Routing'
+- The Impact of LLMs on Online News Consumption and Production
+- Intrinsic-Metric Physics-Informed Neural Networks (IM-PINN) for Reaction-Diffusion
+  Dynamics on Complex Riemannian Manifolds
+- 'Attention Needs to Focus: A Unified Perspective on Attention Allocation'
+- Wittgenstein's Family Resemblance Clustering Algorithm
+- Does Memory Need Graphs? A Unified Framework and Empirical Analysis for Long-Term
+  Dialog Memory
+- 'Reliable Grid Forecasting: State Space Models for Safety-Critical Energy Systems'
+- 'FastV-RAG: Towards Fast and Fine-Grained Video QA with Retrieval-Augmented Generation'
+- 'Beyond Binary Preference: Aligning Diffusion Models to Fine-grained Criteria by
+  Decoupling Attributes'
+- Embedding Textual Information in Images Using Quinary Pixel Combinations
+- Unified Text-Image Generation with Weakness-Targeted Post-Training
+- 'ReHyAt: Recurrent Hybrid Attention for Video Diffusion Transformers'
+- 'SCAR-GS: Spatial Context Attention for Residuals in Progressive Gaussian Splatting'
+- 'Comparative Analysis of Custom CNN Architectures versus Pre-trained Models and
+  Transfer Learning: A Study on Five Bangladesh Datasets'
+- 'PackCache: A Training-Free Acceleration Method for Unified Autoregressive Video
+  Generation via Compact KV-Cache'
+- Combining facial videos and biosignals for stress estimation during driving
+- Few-Shot LoRA Adaptation of a Flow-Matching Foundation Model for Cross-Spectral
+  Object Detection
+- Performance Analysis of Image Classification on Bangladeshi Datasets
+- 3D-Agent:Tri-Modal Multi-Agent Collaboration for Scalable 3D Object Annotation
+- From Preoperative CT to Postmastoidectomy Mesh Construction:1Mastoidectomy Shape
+  Prediction for Cochlear Implant Surgery
+- 'CRUNet-MR-Univ: A Foundation Model for Diverse Cardiac MRI Reconstruction'
+- Addressing Overthinking in Large Vision-Language Models via Gated Perception-Reasoning
+  Optimization
+- 'UniDrive-WM: Unified Understanding, Planning and Generation World Model For Autonomous
+  Driving'
+- Vision-Language Agents for Interactive Forest Change Analysis
+- 'TokenSeg: Efficient 3D Medical Image Segmentation via Hierarchical Visual Token
+  Compression'
+- 'FaceRefiner: High-Fidelity Facial Texture Refinement with Differentiable Rendering-based
+  Style Transfer'
+- 'All Changes May Have Invariant Principles: Improving Ever-Shifting Harmful Meme
+  Detection via Design Concept Reproduction'
+- 3D Conditional Image Synthesis of Left Atrial LGE MRI from Composite Semantic Masks
+- 'MiLDEdit: Reasoning-Based Multi-Layer Design Document Editing'
+- Detection of Deployment Operational Deviations for Safety and Security of AI-Enabled
+  Human-Centric Cyber Physical Systems
+- 'HUR-MACL: High-Uncertainty Region-Guided Multi-Architecture Collaborative Learning
+  for Head and Neck Multi-Organ Segmentation'
+- 'HyperAlign: Hyperbolic Entailment Cones for Adaptive Text-to-Image Alignment Assessment'
+- 'Agri-R1: Empowering Generalizable Agricultural Reasoning in Vision-Language Models
+  with Reinforcement Learning'
+- DB-MSMUNet:Dual Branch Multi-scale Mamba UNet for Pancreatic CT Scans Segmentation
+- 'HATIR: Heat-Aware Diffusion for Turbulent Infrared Video Super-Resolution'
+- 'WebCryptoAgent: Agentic Crypto Trading with Web Informatics'
+- 'Forge-and-Quench: Enhancing Image Generation for Higher Fidelity in Unified Multimodal
+  Models'
+- On the Holistic Approach for Detecting Human Image Forgery
+- Training a Custom CNN on Five Heterogeneous Image Datasets
+- 'AIVD: Adaptive Edge-Cloud Collaboration for Accurate and Efficient Industrial Visual
+  Detection'
+- Skeletonization-Based Adversarial Perturbations on Large Vision Language Model's
+  Mathematical Text Recognition
+- 'ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting'
+- Segmentation-Driven Monocular Shape from Polarization based on Physical Model
+- 'GeM-VG: Towards Generalized Multi-image Visual Grounding with Multimodal Large
+  Language Models'
+- 'CounterVid: Counterfactual Video Generation for Mitigating Action and Temporal
+  Hallucinations in Video-Language Models'
+- Defocus Aberration Theory Confirms Gaussian Model in Most Imaging Devices
+- 'SRU-Pix2Pix: A Fusion-Driven Generator Network for Medical Image Translation with
+  Few-Shot Learning'
+- 'Measurement-Consistent Langevin Corrector: A Remedy for Latent Diffusion Inverse
+  Solvers'
+- 'PyramidalWan: On Making Pretrained Video Model Pyramidal for Efficient Inference'
+- Detector-Augmented SAMURAI for Long-Duration Drone Tracking
+- Integrated Framework for Selecting and Enhancing Ancient Marathi Inscription Images
+  from Stone, Metal Plate, and Paper Documents
+- 'SOVABench: A Vehicle Surveillance Action Retrieval Benchmark for Multimodal Large
+  Language Models'
+- Character Detection using YOLO for Writer Identification in multiple Medieval books
+- 'DivAS: Interactive 3D Segmentation of NeRFs via Depth-Weighted Voxel Aggregation'
+- Scaling Vision Language Models for Pharmaceutical Long Form Video Reasoning on Industrial
+  GenAI Platform
+- Rotation-Robust Regression with Convolutional Model Trees
+- Prototypicality Bias Reveals Blindspots in Multimodal Evaluation Metrics
+- 'TEA: Temporal Adaptive Satellite Image Semantic Segmentation'
+- 'SparseLaneSTP: Leveraging Spatio-Temporal Priors with Sparse Transformers for 3D
+  Lane Detection'
+- 'OceanSplat: Object-aware Gaussian Splatting with Trinocular View Consistency for
+  Underwater Scene Reconstruction'
+- Higher-Order Adversarial Patches for Real-Time Object Detectors
+- Patch-based Representation and Learning for Efficient Deformation Modeling
+- 'From Understanding to Engagement: Personalized pharmacy Video Clips via Vision
+  Language Models (VLMs)'
+- Driving on Registers
+- 'UniLiPs: Unified LiDAR Pseudo-Labeling with Geometry-Grounded Dynamic Scene Decomposition'
+- 'From Rays to Projections: Better Inputs for Feed-Forward View Synthesis'
+- 'Re-Align: Structured Reasoning-guided Alignment for In-Context Image Generation
+  and Editing'
+- 'VERSE: Visual Embedding Reduction and Space Exploration. Clustering-Guided Insights
+  for Training Data Enhancement in Visually-Rich Document Understanding'
+- 'VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control'
+- A Lightweight and Explainable Vision-Language Framework for Crop Disease Visual
+  Question Answering
+- Atlas 2 -- Foundation models for clinical deployment
+- Multi-Scale Local Speculative Decoding for Image Generation
+- 'Vision-Language Introspection: Mitigating Overconfident Hallucinations in MLLMs
+  via Interpretable Bi-Causal Steering'
+- 'CoV: Chain-of-View Prompting for Spatial Reasoning'
+- 'VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice'
+- 'Cutting AI Research Costs: How Task-Aware Compression Makes Large Language Model
+  Agents Affordable'
+- Mechanisms of Prompt-Induced Hallucination in Vision-Language Models
+- 'MoE3D: A Mixture-of-Experts Module for 3D Reconstruction'
+- 'FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching'
+- 'ObjectForesight: Predicting Future 3D Object Trajectories from Human Videos'
+- Plenoptic Video Generation
+- 'RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot
+  Manipulation'
+- 'GREx: Generalized Referring Expression Segmentation, Comprehension, and Generation'
+- Pixel-Perfect Visual Geometry Estimation
+- 'RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light
+  Night-time Scenes'
+- 'QNeRF: Neural Radiance Fields on a Simulated Gate-Based Quantum Computer'
+- 'Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video'
+- 'FronTalk: Benchmarking Front-End Development as Conversational Code Generation
+  with Multi-Modal Feedback'
+- 'ArtCognition: A Multimodal AI Framework for Affective State Sensing from Visual
+  and Kinematic Drawing Cues'
+- 'UNIC: Learning Unified Multimodal Extrinsic Contact Estimation'
+- End-to-end differentiable design of geometric waveguide displays
+- Aligned explanations in neural networks
+- In-SRAM Radiant Foam Rendering on a Graph Processor
+- 'IGenBench: Benchmarking the Reliability of Text-to-Infographic Generation'
+- Towards Spatio-Temporal Extrapolation of Phase-Field Simulations with Convolution-Only
+  Neural Networks
+- 'A Vision for Multisensory Intelligence: Sensing, Synergy, and Science'
+- 'See, Explain, and Intervene: A Few-Shot Multimodal Agent Framework for Hateful
+  Meme Moderation'
+- Illumination Angular Spectrum Encoding for Controlling the Functionality of Diffractive
+  Networks
+- 'V-FAT: Benchmarking Visual Fidelity Against Text-bias'
+- Decentralized Privacy-Preserving Federal Learning of Computer Vision Models on Edge
+  Devices
+- Scalable neural pushbroom architectures for real-time denoising of hyperspectral
+  images onboard satellites
+- 'Quantitative mapping from conventional MRI using self-supervised physics-guided
+  deep learning: applications to a large-scale, clinically heterogeneous dataset'
+- 'GenAI-DrawIO-Creator: A Framework for Automated Diagram Generation'
+- Learning Latent Action World Models In The Wild
+- 'Generate, Transfer, Adapt: Learning Functional Dexterous Grasping from a Single
+  Human Demonstration'
+- 'Controllable Generation with Text-to-Image Diffusion Models: A Survey'
+- 'BOP-Distrib: Revisiting 6D Pose Estimation Benchmarks for Better Evaluation under
+  Visual Ambiguities'
+- 'Beyond Fixed Topologies: Unregistered Training and Comprehensive Evaluation Metrics
+  for 3D Talking Heads'
+- Explainable Binary Classification of Separable Shape Ensembles
+- 'SynDroneVision: A Synthetic Dataset for Image-Based Drone Detection'
+- Is Contrastive Distillation Enough for Learning Comprehensive 3D Representations?
+- Spontaneous emergence of linguistic statistical laws in images via artificial neural
+  networks
+- Two-Stream Thermal Imaging Fusion for Enhanced Time of Birth Detection in Neonatal
+  Care
+- 'From Dataset to Real-world: General 3D Object Detection via Generalized Cross-domain
+  Few-shot Learning'
+- Boosting HDR Image Reconstruction via Semantic Knowledge Transfer
+- 'FALCONEye: Finding Answers and Localizing Content in ONE-hour-long videos with
+  multi-modal LLMs'
+- Single Image Reflection Separation via Dual Prior Interaction Transformer
+- Probing Deep into Temporal Profile Makes the Infrared Small Target Detector Much
+  Better
+- 'CaTFormer: Causal Temporal Transformer with Dynamic Contextual Fusion for Driving
+  Intention Prediction'
+- 'WeatherDiffusion: Controllable Weather Editing in Intrinsic Space'
+- 'MoIIE: Mixture of Intra- and Inter-Modality Experts for Large Vision Language Models'
+- Novel View Synthesis using DDIM Inversion
+- 'MVT: Mask-Grounded Vision-Language Models for Taxonomy-Aligned Land-Cover Tagging'
+- 'OneVision: An End-to-End Generative Framework for Multi-view E-commerce Vision
+  Search'
+- Full segmentation annotations of 3D time-lapse microscopy images of MDA231 cells
+- 'MT-Video-Bench: A Holistic Video Understanding Benchmark for Evaluating Multimodal
+  LLMs in Multi-Turn Dialogues'
+- 'MobileGeo: Exploring Hierarchical Knowledge Distillation for Resource-Efficient
+  Cross-view Drone Geo-Localization'
+- 'Automated Invoice Data Extraction: Using LLM and OCR'
+- Improving VisNet for Object Recognition
+- Clinically-Validated Innovative Mobile Application for Assessing Blinking and Eyelid
+  Movements
+- 'StreamFlow: Theory, Algorithm, and Implementation for High-Efficiency Rectified
+  Flow Generation'
+- 'BlurDM: A Blur Diffusion Model for Image Deblurring'
+- MAFNet:Multi-frequency Adaptive Fusion Network for Real-time Stereo Matching
+- 'CHIMERA: Adaptive Cache Injection and Semantic Anchor Prompting for Zero-shot Image
+  Morphing with Morphing-oriented Metrics'
+- Robust Scene Coordinate Regression via Geometrically-Consistent Global Descriptors
+- 'Name That Part: 3D Part Segmentation and Naming'
+- 'NASTaR: NovaSAR Automated Ship Target Recognition Dataset'
+- 'Extended OpenTT Games Dataset: A table tennis dataset for fine-grained shot type
+  and point outcome'
+- 'FluencyVE: Marrying Temporal-Aware Mamba with Bypass Attention for Video Editing'
+- 'Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Autonomous
+  Systems'
+- 'GCR: Geometry-Consistent Routing for Task-Agnostic Continual Anomaly Detection'
+- Agentic Retoucher for Text-To-Image Generation
+- 'Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation
+  in Scenes'
+- 'PrismVAU: Prompt-Refined Inference System for Multimodal Video Anomaly Understanding'
+- 'UniCorn: Towards Self-Improving Unified Multimodal Models through Self-Generated
+  Supervision'
+- 'CrackSegFlow: Controllable Flow Matching Synthesis for Generalizable Crack Segmentation
+  with a 50K Image-Mask Benchmark'
+- 'TRec: Egocentric Action Recognition using 2D Point Tracks'
+- Towards Real-world Lens Active Alignment with Unlabeled Data via Domain Adaptation
+- 'GeoReason: Aligning Thinking And Answering In Remote Sensing Vision-Language Models
+  Via Logical Consistency Reinforcement Learning'
+- Jailbreaking Safeguarded Text-to-Image Models via Large Language Models
+- 'QUIET-SR: Quantum Image Enhancement Transformer for Single Image Super-Resolution'
+- Simulation of prosthetic vision with PRIMA system and enhancement of face representation
+- 'FoldNet: Learning Generalizable Closed-Loop Policy for Garment Folding via Keypoint-Driven
+  Asset and Demonstration Synthesis'
+- Cognitive-Hierarchy Guided End-to-End Planning for Autonomous Driving
+- 'DermaCon-IN: A Multi-concept Annotated Dermatological Image Dataset of Indian Skin
+  Disorders for Clinical AI Research'
+- Leveraging Clinical Text and Class Conditioning for 3D Prostate MRI Generation
+- 'CADmium: Fine-Tuning Code Language Models for Text-Driven Sequential CAD Design'
+- 'POLYCHARTQA: Benchmarking Large Vision-Language Models with Multilingual Chart
+  Question Answering'
+- Interleaved Latent Visual Reasoning with Selective Perceptual Modeling
+- 'Minimal Clips, Maximum Salience: Long Video Summarization via Key Moment Extraction'
+- 'MM-Sonate: Multimodal Controllable Audio-Video Generation with Zero-Shot Voice
+  Cloning'
+- Crafting Adversarial Inputs for Large Vision-Language Models Using Black-Box Optimization
+- Comparative Analysis of Binarization Methods For Medical Image Hashing On Odir Dataset
+- Visual Merit or Linguistic Crutch? A Close Look at DeepSeek-OCR
+- Using Ray-shooting Queries for Sublinear Algorithms for Dominating Sets in RDV Graphs
+- Fast Approximation Algorithms for Euclidean Minimum Weight Perfect Matching
+- 'MedPI: Evaluating AI Systems in Medical Patient-facing Interactions'
+- 'RAGVUE: A Diagnostic View for Explainable and Automated Evaluation of Retrieval-Augmented
+  Generation'
+- Automatic Construction of Chinese Verb Collostruction Database
+- Attribute-Aware Controlled Product Generation with LLMs for E-commerce
+- 'Collective Narrative Grounding: Community-Coordinated Data Contributions to Improve
+  Local AI Systems'
+- 'TeleTables: A Benchmark for Large Language Models in Telecom Table Interpretation'
+- STDD:Spatio-Temporal Dynamics-Driven Token Refinement in Diffusion Language Models
+- Enhancing Admission Inquiry Responses with Fine-Tuned Models and Retrieval-Augmented
+  Generation
+- 'Ideology as a Problem: Lightweight Logit Steering for Annotator-Specific Alignment
+  in Social Media Analysis'
+- 'LLMs for Explainable Business Decision-Making: A Reinforcement Learning Fine-Tuning
+  Approach'
+- Leveraging Language Models and RAG for Efficient Knowledge Discovery in Clinical
+  Environments
+- Complexity Agnostic Recursive Decomposition of Thoughts
+- 'Qwerty AI: Explainable Automated Age Rating and Content Safety Assessment for Russian-Language
+  Screenplays'
+- 'TrueBrief: Faithful Summarization through Small Language Models'
+- 'AnimatedLLM: Explaining LLMs with Interactive Visualizations'
+- 'From Domains to Instances: Dual-Granularity Data Synthesis for LLM Unlearning'
+- 'RIGOURATE: Quantifying Scientific Exaggeration with Evidence-Aligned Claim Evaluation'
+- 'Dialect Matters: Cross-Lingual ASR Transfer for Low-Resource Indic Language Varieties'
+- 'Disco-RAG: Discourse-Aware Retrieval-Augmented Generation'
+- 'MiJaBench: Revealing Minority Biases in Large Language Models via Hate Speech Jailbreaking'
+- 'ARREST: Adversarial Resilient Regulation Enhancing Safety and Truth in Large Language
+  Models'
+- Interpreting Transformers Through Attention Head Intervention
+- 'Gavel: Agent Meets Checklist for Evaluating LLMs on Long-Context Legal Summarization'
+- 'Accommodation and Epistemic Vigilance: A Pragmatic Account of Why LLMs Fail to
+  Challenge Harmful Beliefs'
+- Learning to Simulate Human Dialogue
+- 'Merging Triggers, Breaking Backdoors: Defensive Poisoning for Instruction-Tuned
+  Language Models'
+- Users Mispredict Their Own Preferences for AI Writing Assistance
+- 'Beyond Static Summarization: Proactive Memory Extraction for LLM Agents'
+- 'Concept Tokens: Learning Behavioral Embeddings Through Concept Definitions'
+- 'SampoNLP: A Self-Referential Toolkit for Morphological Analysis of Subword Tokenizers'
+- 'WESR: Scaling and Evaluating Word-level Event-Speech Recognition'
+- 'LinguaGame: A Linguistically Grounded Game-Theoretic Paradigm for Multi-Agent Dialogue
+  Generation'
+- 'GRACE: Reinforcement Learning for Grounded Response and Abstention under Contextual
+  Evidence'
+- 'BanglaLorica: Design and Evaluation of a Robust Watermarking Algorithm for Large
+  Language Models in Bangla Text Generation'
+- Identifying Good and Bad Neurons for Task-Level Controllable LLMs
+- 'FeedEval: Pedagogically Aligned Evaluation of LLM-Generated Essay Feedback'
+- 'Aligning Text, Code, and Vision: A Multi-Objective Reinforcement Learning Framework
+  for Text-to-Visualization'
+- 'THaLLE-ThaiLLM: Domain-Specialized Small LLMs for Finance and Thai -- Technical
+  Report'
+- On the Limitations of Rank-One Model Editing in Answering Multi-hop Questions
+- 'When More Words Say Less: Decoupling Length and Specificity in Image Description
+  Evaluation'
+- 'Character-R1: Enhancing Role-Aware Reasoning in Role-Playing Agents via RLVR'
+- 'From National Curricula to Cultural Awareness: Constructing Open-Ended Culture-Specific
+  Question Answering Dataset'
+- 'MAGA-Bench: Machine-Augment-Generated Text via Alignment Detection Benchmark'
+- 'SpeechMedAssist: Efficiently and Effectively Adapting Speech Language Models for
+  Medical Consultation'
+- 'CRANE: Causal Relevance Analysis of Language-Specific Neurons in Multilingual Large
+  Language Models'
+- 'ToolGate: Contract-Grounded and Verified Tool Execution for LLMs'
+- 'Thunder-KoNUBench: A Corpus-Aligned Benchmark for Korean Negation Understanding'
+- 'PRISM: A Unified Framework for Post-Training LLMs Without Verifiable Rewards'
+- Prior-Informed Zeroth-Order Optimization with Adaptive Direction Alignment for Memory-Efficient
+  LLM Fine-Tuning
+- 'DSC2025 -- ViHallu Challenge: Detecting Hallucination in Vietnamese LLMs'
+- 'Fame Fades, Nature Remains: Disentangling the Character Identity of Role-Playing
+  Agents'
+- 'Qwen3-VL-Embedding and Qwen3-VL-Reranker: A Unified Framework for State-of-the-Art
+  Multimodal Retrieval and Ranking'
+- Automatic Classifiers Underdetect Emotions Expressed by Men
+- 'AM$^3$Safety: Towards Data Efficient Alignment of Multi-modal Multi-turn Safety
+  for MLLMs'
+- 'RiskAtlas: Exposing Domain-Specific Risks in LLMs through Knowledge-Graph-Guided
+  Harmful Prompt Generation'
+- 'Tool-MAD: A Multi-Agent Debate Framework for Fact Verification with Diverse Tool
+  Augmentation and Adaptive Retrieval'
+- 'PILOT-Bench: A Benchmark for Legal Reasoning in the Patent Domain with IRAC-Aligned
+  Classification Tasks'
+- Differential syntactic and semantic encoding in LLMs
+- Revisiting Judge Decoding from First Principles via Training-Free Distributional
+  Divergence
+- 'LANGSAE EDITING: Improving Multilingual Information Retrieval via Post-hoc Language
+  Identity Removal'
+- 'NC2C: Automated Convexification of Generic Non-Convex Optimization Problems'
+- 'Belief in Authority: Impact of Authority in Multi-Agent Evaluation Framework'
+- 'When AI Settles Down: Late-Stage Stability as a Signature of AI-Generated Text
+  Detection'
+- 'RAAR: Retrieval Augmented Agentic Reasoning for Cross-Domain Misinformation Detection'
+- 'Token Maturation: Autoregressive Language Generation via Continuous Token Dynamics'
+- 'MisSpans: Fine-Grained False Span Identification in Cross-Domain Fake News'
+- A Navigational Approach for Comprehensive RAG via Traversal over Proposition Graphs
+- 'EvolSQL: Structure-Aware Evolution for Scalable Text-to-SQL Data Synthesis'
+- 'Mind2Report: A Cognitive Deep Research Agent for Expert-Level Commercial Report
+  Synthesis'
+- 'CuMA: Aligning LLMs with Sparse Cultural Values via Demographic-Aware Mixture of
+  Adapters'
+- Faithful Summarisation under Disagreement via Belief-Level Aggregation
+- Can AI-Generated Persuasion Be Detected? Persuaficial Benchmark and AI vs. Human
+  Linguistic Differences
+- 'GenProve: Learning to Generate Text with Fine-Grained Provenance'
+- A Unified Spoken Language Model with Injected Emotional-Attribution Thinking for
+  Human-like Interaction
+- Text as a Universal Interface for Transferable Personalization
+- 'Learning from Mistakes: Negative Reasoning Samples Enhance Out-of-Domain Generalization'
+- Can Large Language Models Resolve Semantic Discrepancy in Self-Destructive Subcultures?
+  Evidence from Jirai Kei
+- H\'an D\=an Xu\'e B\`u (Mimicry) or Q\=ing Ch\=u Y\'u L\'an (Mastery)? A Cognitive
+  Perspective on Reasoning Distillation in Large Language Models
+- 'ArcAligner: Adaptive Recursive Aligner for Compressed Context Embeddings in RAG'
+- Compositional Steering of Large Language Models with Steering Tokens
+- 'SemPA: Improving Sentence Embeddings of Large Language Models through Semantic
+  Preference Alignment'
+- Code-Mix Sentiment Analysis on Hinglish Tweets
+- How Human is AI? Examining the Impact of Emotional Prompts on Artificial and Human
+  and Responsiveness
+- Agent-as-a-Judge
+- 'DocDancer: Towards Agentic Document-Grounded Information Seeking'
+- 'RelayLLM: Efficient Reasoning via Collaborative Decoding'
+- 'Reverse-engineering NLI: A study of the meta-inferential properties of Natural
+  Language Inference'
+- 'Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized
+  Dialogue Systems'
+- 'LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation'
+- Measuring and Fostering Peace through Machine Learning and Artificial Intelligence
+- 'GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward
+  RL Optimization'
+- 'The Forgotten Shield: Safety Grafting in Parameter-Space for Medical MLLMs'
+- Generative Teaching via Code
+- 'SAGE-32B: Agentic Reasoning via Iterative Distillation'
+- 'Sphinx: Benchmarking and Modeling for LLM-Driven Pull Request Review'
+- 'Shadow Unlearning: A Neuro-Semantic Approach to Fidelity-Preserving Faceless Forgetting
+  in LLMs'
+- Mitigating Position-Shift Failures in Text-Based Modular Arithmetic via Position
+  Curriculum and Template Diversity
+- Quantifying the Effect of Test Set Contamination on Generative Evaluations
+- Generalization to Political Beliefs from Fine-Tuning on Sports Team Preferences
+- 'The Language of Bargaining: Linguistic Effects in LLM Negotiations'
+- 'Rate or Fate? RLV$^\varepsilon$R: Reinforcement Learning with Verifiable Noisy
+  Rewards'
+- Re-Rankers as Relevance Judges
+- 'CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics
+  from Natural Language Prompts'
+- Advancing Language Models for Code-related Tasks
+- 'Not All Steps are Informative: On the Linearity of LLMs'' RLVR Training'
+- 'BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM-based Agents'
+- Neurosymbolic Retrievers for Retrieval-augmented Generation
+- 'DP-MGTD: Privacy-Preserving Machine-Generated Text Detection via Adaptive Differentially
+  Private Entity Sanitization'
+- 'Succeeding at Scale: Automated Multi-Retriever Fusion and Query-Side Adaptation
+  for Multi-Tenant Search'
+- A Method for Constructing a Digital Transformation Driving Mechanism Based on Semantic
+  Understanding of Large Models
+- 'TourPlanner: A Competitive Consensus Framework with Constraint-Gated Reinforcement
+  Learning for Travel Planning'
+- 'Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and
+  Reasoning'
+- Miner:Mining Intrinsic Mastery for Data-Efficient RL in Large Reasoning Models
+- 'AT$^2$PO: Agentic Turn-based Policy Optimization via Tree Search'
+- Defense Against Indirect Prompt Injection via Tool Result Parsing
+- 'DR-LoRA: Dynamic Rank LoRA for Mixture-of-Experts Adaptation'
+- Higher-Order Knowledge Representations for Agentic Scientific Reasoning
+- 'ConMax: Confidence-Maximizing Compression for Efficient Chain-of-Thought Reasoning'
+- On the Hidden Objective Biases of Group-based Reinforcement Learning
+- 'Publishing FAIR and Machine-actionable Reviews in Materials Science: The Case for
+  Symbolic Knowledge in Neuro-symbolic Artificial Intelligence'
+- Reinforced Efficient Reasoning via Semantically Diverse Exploration
+- Multi-Disciplinary Dataset Discovery from Citation-Verified Literature Contexts
+- 'Semantically Orthogonal Framework for Citation Classification: Disentangling Intent
+  and Content'
+- Token-Level LLM Collaboration via FusionRoute
+- Observations and Remedies for Large Language Model Bias in Self-Consuming Performative
+  Loop
+- 'Pelican Soup Framework: A Theoretical Framework for Language Model Capabilities'
+- On the Diagram of Thought
+- 'ChakmaNMT: Machine Translation for a Low-Resource and Endangered Language via Transliteration'
+- Is This Collection Worth My LLM's Time? Automatically Measuring Information Potential
+  in Text Corpora
+- 'Cognitive-Mental-LLM: Evaluating Reasoning in Large Language Models for Mental
+  Health Prediction via Online Text'
+- 'SciClaims: An End-to-End Generative System for Biomedical Claim Analysis'
+- Establishing a Scale for Kullback--Leibler Divergence in Language Models Across
+  Various Settings
+- 'OpenEthics: A Comprehensive Ethical Evaluation of Open-Source Generative Large
+  Language Models'
+- Faithfulness-Aware Uncertainty Quantification for Fact-Checking the Output of Retrieval
+  Augmented Generation
+- 'AutoL2S: Auto Long-Short Reasoning for Efficient Large Language Models'
+- 'Act-Adaptive Margin: Dynamically Calibrating Reward Models for Subjective Ambiguity'
+- 'FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning'
+- Evaluating Large Language Models for Zero-Shot Disease Labeling in CT Radiology
+  Reports Across Organ Systems
+- 'PCoT: Persuasion-Augmented Chain of Thought for Detecting Fake News and Social
+  Media Disinformation'
+- 'Revisiting Chain-of-Thought Prompting: Zero-shot Can Be Stronger than Few-shot'
+- 'Instruction Tuning with and without Context: Behavioral Shifts and Downstream Impact'
+- Reverse Language Model
+- On the robustness of modeling grounded word learning through a child's egocentric
+  input
+- 'TeSent: A Benchmark Dataset for Fairness-aware Explainable Sentiment Classification
+  in Telugu'
+- Towards Trustworthy Multimodal Moderation via Policy-Aligned Reasoning and Hierarchical
+  Labeling
+- 'Latent Fusion Jailbreak: Blending Harmful and Harmless Representations to Elicit
+  Unsafe LLM Outputs'
+- Efficient Switchable Safety Control in LLMs via Magic-Token-Guided Co-Training
+- 'SurGE: A Benchmark and Evaluation Framework for Scientific Survey Generation'
+- 'Beyond Monolingual Assumptions: A Survey of Code-Switched NLP in the Era of Large
+  Language Models across Modalities'
+- 'Think Natively: Unlocking Multilingual Reasoning with Consistency-Enhanced Reinforcement
+  Learning'
+- Hallucination Detection via Internal States and Structured Reasoning Consistency
+  in Large Language Models
+- Proverbs or Pythian Oracles? Sentiments and Emotions in Greek Sayings
+- 'Qomhra: A Bilingual Irish and English Large Language Model'
+- 'AgenticMath: Enhancing LLM Reasoning via Agentic-based Math Data Generation'
+- Can Confidence Estimates Decide When Chain-of-Thought Is Necessary for LLMs?
+- 'IF-CRITIC: Towards a Fine-Grained LLM Critic for Instruction-Following Evaluation'
+- 'One Battle After Another: Probing LLMs'' Limits on Multi-Turn Instruction Following
+  with a Benchmark Evolving Framework'
+- Black-Box On-Policy Distillation of Large Language Models
+- 'Donors and Recipients: On Asymmetric Transfer Across Tasks and Languages with Parameter-Efficient
+  Fine-Tuning'
+- Non-Linear Scoring Model for Translation Quality Evaluation
+- 'TPA: Next Token Probability Attribution for Detecting Hallucinations in RAG'
+- 'NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding
+  Agents'
+- 'Comparative Analysis of LLM Abliteration Methods: A Cross-Architecture Evaluation'
+- 'SiamGPT: Quality-First Fine-Tuning for Stable Thai Text Generation'
+- 'Distilling the Essence: Efficient Reasoning Distillation via Sequence Truncation'
+- 'Disentangling Learning from Judgment: Representation Learning for Open Response
+  Analytics'
+- From Policy to Logic for Efficient and Interpretable Coverage Assessment
+- 'Surprisal and Metaphor Novelty: Moderate Correlations and Divergent Scaling Effects'
+- MiMo-V2-Flash Technical Report
+- 'NorwAI''s Large Language Models: Technical Report'
+- 'BaseCal: Unsupervised Confidence Calibration via Base Model Signals'
+- 'Agent-Dice: Disentangling Knowledge Updates via Geometric Consensus for Agent Continual
+  Learning'
+- 'VotIE: Information Extraction from Meeting Minutes'
+- 'All That Glisters Is Not Gold: A Benchmark for Reference-Free Counterfactual Financial
+  Misinformation Detection'
+- 'Realised Volatility Forecasting: Machine Learning via Financial Word Embedding'
+- What Should Embeddings Embed? Autoregressive Models Represent Latent Generating
+  Distributions
+- Reward Shaping to Mitigate Reward Hacking in RLHF
+- Mining Intrinsic Rewards from LLM Hidden States for Efficient Best-of-N Sampling
+- 'Advancing Software Quality: A Standards-Focused Review of LLM-Based Assurance Techniques'
+- 'TabularMath: Understanding Math Reasoning over Tables with Large Language Models'
+- 'Low-rank variational dropout: Rank selection and uncertainty in adapters'
+- An LLM + ASP Workflow for Joint Entity-Relation Extraction
+- 'RadarPLM: Adapting Pre-trained Language Models for Marine Radar Target Detection
+  by Selective Fine-tuning'
+- 'VCB Bench: An Evaluation Benchmark for Audio-Grounded Large Language Model Conversational
+  Agents'
+- 'Beyond the Crowd: LLM-Augmented Community Notes for Governing Health Misinformation'
+- 'When Models Outthink Their Safety: Unveiling and Mitigating Self-Jailbreak in Large
+  Reasoning Models'
+- 'LPFQA: A Long-Tail Professional Forum-based Benchmark for LLM Evaluation'
+- 'MENTOR: A Metacognition-Driven Self-Evolution Framework for Uncovering and Mitigating
+  Implicit Domain Risks in LLMs'
+- 'Vague Knowledge: Information without Transitivity and Partitions'
+- 'PHOTON: Hierarchical Autoregressive Modeling for Lightspeed and Memory-Efficient
+  Language Generation'
+- 'AppellateGen: A Benchmark for Appellate Legal Judgment Generation'
+- 'Muse: Towards Reproducible Long-Form Song Generation with Fine-Grained Style Control'
+- 'ROOFS: RObust biOmarker Feature Selection'
+- 'CAOS: Conformal Aggregation of One-Shot Predictors'
+- 'Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in
+  Structured Temporal Data'
+- Learning Multinomial Logits in $O(n \log n)$ time
+- Convergence Rates for Learning Pseudo-Differential Operators
+- A Generalized Adaptive Joint Learning Framework for High-Dimensional Time-Varying
+  Models
+- 'Forecasting the U.S. Treasury Yield Curve: A Distributionally Robust Machine Learning
+  Approach'
+- Estimating Causal Effects in Gaussian Linear SCMs with Finite Data
+- 'DeepWeightFlow: Re-Basined Flow Matching for Generating Neural Network Weights'
+- Learning Mixture Models via Efficient High-dimensional Sparse Fourier Transforms
+- Optimal Lower Bounds for Online Multicalibration
+- Centroid Decision Forest
+- Structured Matching via Cost-Regularized Unbalanced Optimal Transport
+- High-Dimensional Change Point Detection using Graph Spanning Ratio
+- 'Avoiding the Price of Adaptivity: Inference in Linear Contextual Bandits via Stability'
+- 'Gradient Dynamics of Attention: How Cross-Entropy Sculpts Bayesian Manifolds'
+- Binary Iterative Hard Thresholding Converges with Optimal Number of Measurements
+  for 1-Bit Compressed Sensing
+- Convergence of Sign-based Random Reshuffling Algorithms for Nonconvex Optimization
+- Demonstrating the power and flexibility of variational assumptions for amortized
+  neural posterior estimation in environmental applications
+- Graph-Dictionary Signal Model for Sparse Representations of Multivariate Data
+- Meta-Learning Objectives for Preference Optimization
+- Estimation of partial rankings from sparse, noisy comparisons
+- 'Breaking AR''s Sampling Bottleneck: Provable Acceleration via Diffusion Language
+  Models'
+- Blockchain-Enabled Privacy-Preserving Second-Order Federated Edge Learning in Personalized
+  Healthcare
+- 'When Lower-Order Terms Dominate: Adaptive Expert Algorithms for Heavy-Tailed Losses'
+- 'Simulation-based population inference of LISA''s Galactic binaries: Bypassing the
+  global fit'
+- Gaussian Mixture Model with unknown diagonal covariances via continuous sparse regularization
+- The Bayesian Geometry of Transformer Attention
