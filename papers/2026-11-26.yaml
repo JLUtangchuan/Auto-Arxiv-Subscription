@@ -1,0 +1,272 @@
+date: '2026-11-26'
+total_count: 193
+papers:
+- 'Validation Bias in Large Language Model Responses to Cancer Treatment Queries:
+  A Factorial Cross-Sectional Study'
+- 'DAGGER: Deployment-Free Quality Estimation for Generative AI Workflows'
+- Instantiation of Human Values in Image Generation
+- 'The Date You Didn''t Set: The System-Prompt Date as a Hidden Variable in LLM Evaluation'
+- 'INCLUDE-2.0: Disentangling Knowledge Gaps in Multilingual LLM Evaluation'
+- Directly Maximizing On-policy Expected Accepted Length for Speculative Decoding
+- 'scOPD: Routed On-Policy Self-Distillation for LLM-Based Single-Cell Annotation'
+- 'RECAP: Training Long-horizon LLM Agents with Context Compaction'
+- 'RecipeADQA: A User-aware Question-Answering Dataset for Multi-Constraint Recipe
+  Recommendation'
+- Capability and Interpretability of Transformers on Multi-task Recurrence
+- Does Item Response Theory Generalize Across Languages? Evidence from Cross-Lingual
+  LLM Benchmarks
+- 'RegioZH: Unveiling Comprehension Disparities across Regional Chinese Varieties
+  in LLMs'
+- Evaluating Large Language Models on Iranian Doctoral Entrance Exams in Electrical
+  and Computer Engineering
+- 'How Persona Conditioning Changes Open-Ended Task Execution: A Paired Evaluation
+  of Behavioral Gains and Reliability Costs'
+- 'SD-Cache: Learnable Memory Consolidation with State-Guided Dynamic Caching'
+- 'Agentic Systems Need Multi-Run Evaluation: A Study of Retrieval and Response Variability
+  in a Deployed Enterprise RAG System'
+- 'ToneMamaba: Learning Contextualized Tonal Contours with Boundary-Reset State Space
+  Models'
+- 'AhaPro: A Process-level Rebus benchmark for probing Aha moments in LLM reasoning'
+- 'Reliability of Language-Model Judges for Quantitative Scientific Question Answering:
+  Evidence from Perovskite Photovoltaics'
+- 'Lexical Tone and Word Order Matter in Translation: Prosodic Correspondence Across
+  Languages'
+- 'ModernELECTRA: Replaced-Token Detection with Boundary-Window Reconstruction for
+  Compact Encoders that Classify and Embed'
+- 'Reading Between the Layers: Where Representation Quality Lives, and What Geometry
+  Reveals'
+- Can LLM-Simulated Respondents Pre-Test Survey Questions? Evidence From Preregistered
+  Prospective Validation
+- 'CLAIMGATE: Cautious On-Device Checking of Spoken Legal and Clinical Claims'
+- 'PazaBench: Large-Scale ASR Benchmark for Low-Resource Languages in Africa'
+- 'SecondChance: Benchmarking Reliable Error Recovery in AI Agents'
+- 'LUCID: Statistically Grounded Self-Correction for LLM Reasoning Evaluation'
+- Training decision models for simulating human respondents
+- 'Tablassert: Declarative Extraction of Knowledge Graphs from Biomedical Tables'
+- Provenance Loss and Repair in Multilingual Compaction
+- 'Right Destination, Wrong Journey: Synthetic Counseling Dialogues Miss Human Interactional
+  Dynamics'
+- 'fork() for Agents: Agent Kernel for Non-blocking LLM Orchestration'
+- SPARQL-Planned Single-Hop Traversal over a Live Knowledge Graph for Multi-Hop Question
+  Answering
+- Exploring Multi-Player Social Games as Verifiable Training Grounds for Large Language
+  Models
+- Faithful Persona Steering under Incongruity via Dual-Stream Refinement
+- 'Scoring What Matters: Exact Feedback Reduction for Language Model Comparison'
+- Localizing Cross-Lingual Generalization in Parameter Space
+- Reading, Writing and Repairing Game-Theoretic Policies in Weight Space
+- Grounding Language Models in Revealed Audience Behavior
+- 'Making Evaluation Explicit Is Not Enough: Supervising the Evaluation Process in
+  Generative Reward Models'
+- 'RightDiff: Learning Generative Reward Models to Judge by the Right Differences'
+- 'ArEssays: Towards Robust Arabic Handwritten Text Understanding in Educational Settings'
+- 'SkillCore: Internalizing Generalizable Skills via Scaffolding-Removed Fine-Tuning'
+- 'Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounded
+  Policy Assistant'
+- 'ArabFake: A multitask deep learning framework for Arabic fake news Detection, Categorization,
+  and risk prediction'
+- Implementation of Machine Translation for the Uzbek Language Based on Transformer
+  Models
+- 'Decision Models: An Introduction and Capability Evaluation'
+- On the Importance of Hidden-State Refinement in Masked Diffusion Language Models
+- 'When Ink Meets Pixel: Intent-Aware OCR with VLMs for Human-Corrected Financial
+  Documents When Ink Meets Pixel: Intent-Aware OCR with VLMs for Human-Corrected Financial
+  Documents'
+- Phoneme-identity depth profiles do not reliably predict LoRA placement for dysarthric
+  ASR
+- 'BCP: A Lightweight Boundary-Controlled Framework for Online Sign Language Recognition
+  and Translation'
+- What If Chinese Were Latinized? A Counterfactual Study of Input Representation,
+  Tokenization, and Language Modeling
+- 'Avalon-M1: Reinforcement Learning from Collective Rewards'
+- Evaluating Latent Knowledge Stability in Multimodal Large Language Models
+- 'When "Neutral" Means Irrelevant: A Construct-Validity Audit of NormAd-ETI'
+- 'REBEAL: Human References Are No Longer the Best Translation, and Metrics Do Not
+  Notice'
+- 'MargEmbed-Akan: Bridging Twi Questions and English Knowledge through Cross-Lingual
+  Score Distillation'
+- Generating Schema-Aligned Synthetic Dialogues and Measuring Their Diversity
+- 'Bathys: Advancing Deep Search Agents'
+- 'Social Bias Neurons in Multilingual Language Models: A Mechanistic Interpretability
+  Analysis'
+- Red-Teaming a Sovereign LLM, Its Reasoning and Its Training Stages
+- 'ASCENT: A Benchmark for Evaluating and Advancing Stepwise Diagnostic Reasoning
+  in Large Language Models on Common Clinical Scenarios'
+- 'Beyond Fixed-Context Likelihood: Zero-Shot AI-Generated Text Detection via Context
+  Perturbation Discrepancy'
+- Is Prosody Encoded in the Neural Audio Codec Mimi?
+- 'From Grammar Deltas to Token Masks: Incremental Constrained Decoding under Runtime
+  Grammar Evolution'
+- Joint Detection of Constructive Speech, Hate Speech and Agreement in Online Conversations
+- 'Modelling Billingual Learning Through LLM Training: A Critical-Period Exploration'
+- 'Leto: Utility-Centric Agent Memory'
+- 'SALSA: Sampling Adversarial Suffixes from Learned Distributions for LLM Safety
+  Assessment'
+- Worth the Wait? How Response Time and Streaming Shape Judgments of Generative AI
+  Answers and Chatbot Engagement
+- 'FOL-Proof: Verifying LLM Text-to-Logic Translations via Deterministic Semantics'
+- 'AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design'
+- SAG-Mem-1.0 Technical Report
+- 'CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies'
+- Verifiable On-Policy Distillation
+- LLM Genetic Feature Engineering
+- 'What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information
+  Manipulation in Conversations'
+- GHC:Expanding Residual Interfaces in Hyper-Connections
+- 'CoRe: Jointly Learning Contextual Representations for Understanding and Generation'
+- 'Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic
+  Training'
+- 'Leaks by Installments: Cross-Session Answer Disclosure in LLM Tutors and a Ledger-Based
+  Defense'
+- A dataset of clinically similar image pairs from citation-linked case reports for
+  medical image retrieval
+- 'SwiftLoop: Selective Refinement for Adaptive Implicit Reasoning in Looped Transformers'
+- 'LatentLens: Rethinking Latent Interface in Multi-Agent Systems'
+- 'GoldiBench: Right Tools, Wrong Amount -- Benchmarking Agents on Effect Judgement
+  in Professional Editing'
+- 'E2SIM: Long-Horizon Simulation of Everyday Human Behavior with Evolving States'
+- 'LimoBench: How Street Smart Are Large Language Models?'
+- 'CATWAY: Cost-sensitive agentic three-way robot decisions with calibrated language-model
+  confidence'
+- 'BEARING: Who Is Talking to Whom? Grounding Acoustic Direction in Vision for Online
+  Multi-Party Conversation'
+- 'TACT-Bench: Testing Adaptive Conversational Threats against Tool-Use Agents'
+- 'Byte Patches versus BPE at Matched Data: A Matched-Twin Comparison at 350M Parameters'
+- 'SwarmLeak: Does Coordination Improve Privacy Attacks on LLM Agents?'
+- Learning Compact State Abstractions for LLM Agents
+- Subliminal Learning Crosses Modalities
+- 'TableRouter: Query-Aware Evidence Construction for Long-Table Question Answering'
+- 'Marketing-Bench: Evaluating Frontier Models and Agents on Real-World Marketing
+  Capabilities'
+- 'HuluOPD: Unifying Heterogeneous Medical Specialists into One Lightweight Model
+  with Unlabeled Prompts'
+- Do Clinician-Scored Examples Help LLMs Code ADOS-2 from Hour-Long Transcripts?
+- 'Fix How It Acts, Not How It Thinks: Surgical Fine-Tuning of Frontier LLMs'
+- Calibrated Reading of Latent Reasoning and Communication
+- 'ARS-VLM: Visually Aligned Augmented Random Search for Vision-Language Models'
+- 'ThinkMorph-SSL: Scaling Interleaved Multimodal Reasoning with Pretext Tasks'
+- 'Steerable by Design: Conditional Pretraining for Robust Control of Language Models'
+- 'ASTERISM: Do Multimodal LLMs Actually Look at All the Images?'
+- 'Factorized Context Attention: From Emulated to Native Grid Probing'
+- 'MAGPIE: Agentic Multi-Reference Image Generation via Executable Scene Construction'
+- 'STAR: Counterfactual Dual-World Rollouts and Spatial Target Adaptive Reconstruction
+  for Visual On-Policy Distillation'
+- 'Gated Concept Adapters: Layer-Wise Concept Bottlenecks for Auditable Text Understanding'
+- 'Privacy Disclosure Control Benchmark (PDC-Bench): How Faithfully Do LLMs Keep Privacy
+  Constraints on In-Context Disclosure Granularity?'
+- Measuring Layer-wise Intrinsic Dimensionality of FFNs in LLMs via PCA
+- Sample-Efficient In-Context Adaptation via Sleep
+- 'Fresh Keys, Stale Secrets: Numeric Leakage across Linked LLM Prompts'
+- 'SOARS: System One Assisted Reranking for Agentic Search'
+- 'InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual
+  Fine-Tuning'
+- One Style Fits All? Cultural Values Embedded in Conversational AI via a People-Pleasing
+  Lens
+- 'ShellBench: What Matters More for AI Agents, Models, or Harness for Everyday Tasks'
+- '"I Do Intend to Deliver": Will LLMs Run a Marketplace Advance-Fee Scam?'
+- 'When Repair Accuracy Misleads: Training a VLM on Its Own Failures'
+- On Potentiality and Actuality Of Foundation Models
+- Can LLM Judges Catch Unsafe Clinical Actions? A Fault-Injection Study
+- Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?
+- Towards Realistic Evaluation of Uncertainty Quantification for LLM-Based Recommender
+  Systems
+- 'Latent Merger: Latent-Space Composition of Hypernetwork-Generated LoRAs'
+- 'A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model''s Thinking
+  Loops and Complement a Frontier Model''s Weight Edit'
+- 'BriConstrain: Geometrically Constrained Decoding for Autoregressive Brick Assembly
+  Generation'
+- 'DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning'
+- 'Feriji: A French-Zarma Parallel Corpus, Glossary & Translator'
+- 'Grammatical Error Correction for Low-Resource Languages: The Case of Zarma'
+- On the Efficiency of Structured Pruning in Small Language Model Pretraining
+- 'TRIM: Achieving Extreme Sparsity with Targeted Row-wise Iterative Metric-driven
+  Pruning'
+- 'REAL: Reading Out Transformer Activations for Precise Localization in Language
+  Model Steering'
+- 'EEG-MedRAG: Enhancing EEG-based Clinical Decision-Making via Hierarchical Hypergraph
+  Retrieval-Augmented Generation'
+- 'Computational Social Linguistics for Telugu Cultural Preservation: Novel Algorithms
+  for Chandassu Metrical Pattern Recognition'
+- 'Multiscale Aggregated Hierarchical Attention (MAHA): A Constrained and Consensus-Based
+  Approach to Efficient Contextual Modeling in Large Language Models'
+- Multi-Dimensional Prompt Chaining to Improve Open-Domain Dialogue Generation
+- Linguistic and Argument Diversity in Synthetic Data for Function-Calling Agents
+- Adaptive Conformal Prediction for Improving Factuality of Generations by Large Language
+  Models
+- 'UniVer: A Unified Perspective for Multi-step and Multi-draft Speculative Decoding'
+- 'Agent Collectives Should Not Detect Their Own Imposters: A Chess Case Study'
+- Training-Free Cultural Alignment of Large Language Models via Persona Disagreement
+- Grounding Text Embeddings in Stakeholder Associations
+- Structured Prompt Optimization Advances Globally and Locally Interpretable Learning
+  from Complex Text
+- Speculative Decoding and the Curse of Multilinguality
+- Emergent Language as an Approach to Conscious AI
+- 'When Better Codebooks Are Not Enough: Predictive Performance and Rule Adherence
+  in LLM Political Event Coding'
+- 'Structural Pattern Mining in Inka Khipus: An Audit of Clustering and Provenance
+  Classification in the Open Khipu Repository'
+- 'GEM: A Generative Embedding Model Bridging Reasoning and Retrieval'
+- Graph-model gains, edge dependence, and the value of correct claim structure in
+  patent litigation prediction
+- 'The Imperfective Paradox Is Not Necessarily in Large Language Models: A Benchmark
+  Failure Before a Model Failure'
+- Untangling the Mechanisms of Misleading Context in Medical Question Answering
+- 'RheoSampling: Resolving the One-Hot Dilemma in Stochastic Dynamic-Tree Speculative
+  Decoding'
+- 'BabelArena: A Large-Scale Multilingual Benchmark for LLM Agents'
+- 'Framing the Narrative: Ideological Mimicry in Large Language Models'
+- 'ContextAdapt: Evaluating Contextual Adaptation and Value Alignment in LLMs'
+- Exploring the Hidden Cost of the World Around AI Agents
+- 'TrustMI: Causally controlling how assistants trust their users'
+- 'The interpreter as developer: An autoethnographic design study of building a computer-assisted
+  interpreting tool through human-LLM co-creation'
+- Diagnosing and Mitigating Long-Session Degradation in Full-Duplex Speech Models
+- 'GEPA-Curator: Curated Learning for Self Improving Agents'
+- 'The FlightFinder Occurrence Corpus: harmonising 128 aviation-safety source codes
+  into one deduplicated cross-national accident dataset'
+- 'Write Facts the Way Models Read Them: Lifting the Two-Hop Curse'
+- Visual Similarity in Adult Word Extension and Artificial Word Learning
+- 'Offline-First Quantized AI: Design and Evaluation of an On-Device Maternal-Health
+  Assistant for Low-Connectivity Environments'
+- When Should Decision Models Compare Candidates?
+- 'Silent Arbitration: How Large Language Models Resolve Co-Authoritative Conflicting
+  Instructions'
+- 'Grammar-as-a-Drafter: More Tokens per Speculative Decoding Step on Grammar-Constrained
+  Structured Outputs'
+- LITMUS - Literature Informed Testbed for Mapping Usecases and Synthesizing Risk-Cards
+- S\'anchez, Feij\'oo, or Abascal? Speaker Attribution and Ideological Congruence
+  in LLM Personas Reading Posts on X of the Leaders of the Three Main Parties of the
+  29N General Election in Spain
+- 'LimeTree: Linear-Memory Graph Neural Networks over Tree-Graphs for Resource-Efficient
+  Language Modeling and Context Extrapolation'
+- Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals
+- 'MMGenBench: An Automated Pipeline for Evaluating LMMs from a Text-to-Image Generation
+  Perspective'
+- Where is the multimodal goal post? On the Ability of Foundation Models to Recognize
+  Highlights in Videos
+- Diagnosing and Repairing Citation Failures in Generative Engine Optimization
+- 'Speak or Stay Silent: Context-Aware Turn-Taking in Multi-Party Dialogue'
+- 'The Reasoning Bottleneck in Graph-RAG: Structured Prompting and Context Compression
+  for Multi-Hop QA'
+- 'Pothen: Can Vision-Language Models Tell Where a Cultural Object Comes From?'
+- 'PairAlign: A Framework for Autoregressive Tokenization via Self-Alignment with
+  Applications to Audio Tokenization'
+- 'MobileMoE: Scaling On-Device Mixture of Experts'
+- 'LLM-ACES: Closed-Loop Discovery of Dynamical Systems with LLM-Guided Adaptive Search'
+- 'PruneGround: Plug-and-play Spatial Pruning for 3D Visual Grounding'
+- 'CrossProjection: Benchmarking Spatial Grounding across Projection and Section Views'
+- 'Risky Business: Measuring The Faithfulness-Safety Tension'
+- 'The Hermon Moment: AI Self-Transcendence and Its Human Narration'
+- 'InvestigationWorlds: An Agentic Environment for Legal Investigation'
+- 'Noise Your Prompt: Noising Conditioning Tokens in Continuous Diffusion Language
+  Models'
+- 'The Missing Compliance Class: LLM Graders That Collapse Jailbreak Success, and
+  a Free Check'
+- 'Ramanujan Challenge Results: AI-Assisted Evaluation Pipeline for Multi-Format Proofs'
+- Sparse Autoencoder Attribution Graphs Are Decided at the Margin
+- Greedy BPE with Replacement Counts Achieves the Tight Approximation Ratio $(1-e^{-2})/2$
+- Speculative Self-Distillation enables Efficient Knowledge Internalization
+- Safe to Omit, Worth Omitting? Keeping the Answer and Cutting Latency When an LLM
+  Agent Skips Another's Message
+- LLM-based Personalized Travel Planner
+- 'Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training'
